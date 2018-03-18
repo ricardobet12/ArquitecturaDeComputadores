@@ -12,18 +12,18 @@ básicamente un compilador toma como entrada de texto escrito y da como salida o
 **25. Convierta el siguiente código a lenguaje ensamblador, máquina **SPARC V8** y hexadecimal.
 
 **a.
- ```c               D. Memory
- int main(){       |0000|
- int a = 8;        |0004|
- int b = -14800;   |0008|
- int c = 33;       |000C|
- if((a+b)<=b*16){  |0010|
- 	c=a+(b*2);       |0014|
-	}else{           |
-	return b-78;     |
-}                  |
-	return a+c;      |
-}                  |
+ ```c                D. Memory
+ int main(){         |0000|
+ int a = 8;          |0004|
+ int b = -14800;     |0008|
+ int c = 33;         |000C|
+ if((a+b)<=b*16){    |0010|
+ 	c=a+(b*2);   |0014|
+	}else{       |0018|
+	return b-78; |    |
+}                    |
+	return a+c;  |    |
+}                    |
  ```
 
 **b. (Se hace la corrección del return c/16 cambiando el c por la a)
