@@ -51,19 +51,19 @@ int main(){
 26. Convierta el siguiente código a lenguaje ensamblador, máquina **SPARC V8** y hexadecimal.
  ```
  
-int test(int x, int y, int w){          |0000| JMPL %07 8 %G0
-	int z;				|0004| MOV 0 %L4
-	z = x - y + w*4;		|0008| SUB %L3 %I0 %L3
-	return z + 2;			|000C| SLL %I2 2 %00
-}					|0010| ADD %L3 %00 %L4
-					|0014| ADD %L4 2 %00
+int test(int x, int y, int w){          0000| JMPL %07 8 %G0
+	int z;				0004| MOV 0 %L4
+	z = x - y + w*4;		0008| SUB %L3 %I0 %L3
+	return z + 2;			000C| SLL %I2 2 %00
+}					0010| ADD %L3 %00 %L4
+					0014| ADD %L4 2 %00
 int main(){				MAIN
-	int a = 4, b = 2, c = -15600;	|0018| MOV 4 %L0 
-	int x = test(a,b,c);		|001C| MOV 2 %L1
-	return x + 45;			|0020| MOV -15600 %L2
-}					|0024| MOV 0 %L3
-					|0028| CALL TEST
-					|002C| ADD %L2 8 %02
+	int a = 4, b = 2, c = -15600;	0018| MOV 4 %L0 
+	int x = test(a,b,c);		001C| MOV 2 %L1
+	return x + 45;			0020| MOV -15600 %L2
+}					0024| MOV 0 %L3
+					0028| CALL TEST
+					002C| ADD %L2 8 %02
 	
 ```
 	
