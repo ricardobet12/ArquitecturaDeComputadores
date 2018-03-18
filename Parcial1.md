@@ -10,7 +10,7 @@ Es decir convierte un lenguaje de programación "ALTO NIVEL" a Lenguaje maquina 
 básicamente un compilador toma como entrada de texto escrito y da como salida otro texto. 
 ```
 **25. Convierta el siguiente código a lenguaje ensamblador, máquina **SPARC V8** y hexadecimal.
-
+```
 **a.
                           D. Memory
  int main(){             |0000| MOV 8,%L0
@@ -49,4 +49,4 @@ int main(){
 ```
 .
 
-
+BB
