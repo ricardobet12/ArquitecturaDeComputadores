@@ -77,5 +77,5 @@ FORMATO 3:                      OP  RD    OP3    RS1  I UNSIDED   RS2
 SUB %L3 %I1 %L3                |10|10011|000100|10011|0|00000000|11001|
 FORMATO 3:                      OP  RD    OP3    RS1  I    IMM
 SLL %I2 2 %00                  |10|01000|100101|11010|1|0000000000001|
-
+.
 ```					
