@@ -365,32 +365,32 @@ ADD   |10|01000|000000|00000|1|0000000|101101        9000202D
 ```
 27. Implemente la función **Pot** en lenguaje de alto nivel,lenguaje ensamblador **SPARC V8** y lenguaje de máquina SPARC V8 que realice la potencia de dos números enteros sin signo realizando llamados a la función multiplicacion hecha en clase.
 ```
-int potencia (int num1, int num2) { 
-INT i=0;
-int valor  =0;
-for(i=1;i<num2;i++){
-   valor=valor+num1;
-}
-}
-
-int main () { 
-int num1 = 2;
-int num2 = 2;
- potencia (num1, num2);
- 
-return potencia;
-}
+int potencia (int num1, int num2) {        |
+INT i=0;                                   |
+int valor  =0;                             |
+for(i=1;i<num2;i++){                       |
+   valor=valor+num1;                       |
+}                                          |
+}                                          |
+                                           |
+int main () {                              | MAIN
+int num1 = 2;                              |
+int num2 = 2;                              |
+ potencia (num1, num2);                    |
+                                           |
+return potencia;                           |
+}                                          |
 ```
 28. Implemente una función **Fact** en lenguaje de alto nivel, lenguaje ensamblador **SPARC V8** y lenguaje de máquina SPARC V8 que calcule el factorial de un número entero sin signo.
 ```
-int fact(int n){             
-if(n<0){
-   return 0;
-}else if(n>1){
-         return n*fact(n-1)
-}
-int main(){
-int a = 5;
-return fact(a);
-}
+int fact(int n){                           |
+if(n<0){                                   |
+   return 0;                               |
+}else if(n>1){                             |
+         return n*fact(n-1)                |
+}                                          |
+int main(){                                |
+int a = 5;                                 |
+return fact(a);                            |
+}                                          |
 
