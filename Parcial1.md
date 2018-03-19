@@ -86,6 +86,16 @@ c[5] = i + 2;        add %L0, 2, %L6
 	e.140
 ```
 15. Explique las instrucciones aritmético lógicas y su sintaxis en lenguaje ensamblador.
+```
+las instrucciones aritmético lógicas son las que permiten realizar procesos dependiendo si tiene un inmediato o no
+dando un ejemplo ADD %L0,2,%L0 su formato debe estar llenado de la siguiente manera:
+op  rd    op3    rs1  i      inm  
+10|10010|000010|00000|1|0000000000010
+dando el ejemplo ADD %L0,%L1,%L0 en el formato debe ir de la siguiente manera:
+op    rd    op3   rs1  i unused   rs2
+|10|10000|000000|10000|0|0000000|10001
+
+```
 
 16. Explique cada uno de los campos de los 3 formatos de la arquitectura SPARC V8.
 ```
@@ -111,8 +121,13 @@ instrucciones algebraicas..
 20. ¿Qué es una instrucción sintética, de dos ejemplos?
 
 21. ¿Qué significa el campo **a** para una instrucción BRANCH?.
-
+```
+Se utiliza el campo a para que la instruccion Branch no realize el Ds
+```
 22. ¿Para qué la instrucción **CALL** utiliza el registro %O7?.
+```
+El registro %O7 se utiliza como registro temporar para que el CALL le pueda pasar informacion al JMPL
+```
 
 **23.Convertir el siguiente programa en lenguaje de máquina a lenguaje ensamblador y luego a lenguaje de alto nivel:**
 ```
