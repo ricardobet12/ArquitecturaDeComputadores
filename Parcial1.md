@@ -545,21 +545,22 @@ ADD   |10|01000|000000|00000|1|0000000|101101        9000202D
 ```
 #include <stdio.h>                                     |
 						       |
-int pot(int num1, int num2) {                          |     JMPL %07 8 %G0 
-int i=0;                          i=%L0                |     MOV 0 %L0
-                                                       |     MOV 0 %O0
+int pot(int num1, int num2) {                          |      
+int i=0;                          i=%L0                |0000|MOV 0 %L0
+                                                       |0004|MOV 0 %O0
 int valor  =0;                    valor=%O0            |IAMFOR
-for(i=1;i<=num2;i++){                                  |     CMP %L0 %I0
-   valor=valor+num1;                                   |     BGE A ENDFOR
-    }                                                  |     ADD %O0 %I0 %O0
-printf( "El resultado es: %d", valor);                 |     BA IAMFOR
-}                                                      |     ADD %L0 1 %L0
+for(i=1;i<=num2;i++){                                  |0008|CMP %L0 %I0
+   valor=valor+num1;                                   |000C|BGE A ENDFOR
+    }                                                  |0010|ADD %O0 %I0 %O0
+printf( "El resultado es: %d", valor);                 |0014|BA IAMFOR
+}                                                      |0018|ADD %L0 1 %L0
                                                        | ENDFOR
-						       |
+						       |001C|JMPL %07 8 %G0
+						       |0020|NOP
 int main () {                                          MAIN
-int num1 = 2;                    num1=%I0              |      MOV 2 %I0
-int num2 = 2;                    num2=%I1              |      MOV 2 %I1
- pot(num1, num2);                                      |      CALL pot
+int num1 = 2;                    num1=%I0              |0024|MOV 2 %I0
+int num2 = 2;                    num2=%I1              |0028|MOV 2 %I1
+ pot(num1, num2);                                      |002C|CALL pot
 }                                                      |
 ```
 ***28. Implemente una función **Fact** en lenguaje de alto nivel, lenguaje ensamblador **SPARC V8** y lenguaje de máquina SPARC V8 que calcule el factorial de un número entero sin signo.***
