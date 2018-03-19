@@ -166,7 +166,11 @@ instrucciones algebraicas..
 20. ¿Qué es una instrucción sintética, de dos ejemplos?
 
 ```
-
+Es la forma corta para representar una instruccion en SPARV8
+Ejemplo 1
+OR %G0 5 %L0 --->  MOV 5 %L0
+Ejemplo 2
+SUBCC %L0 0 %G0 --> CMP %L0 0
 ```
 21. ¿Qué significa el campo **a** para una instrucción BRANCH?.
 ```
