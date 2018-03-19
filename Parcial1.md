@@ -373,7 +373,7 @@ for(i=1;i<num2;i++){                       |
 }                                          |
 }                                          |
                                            |
-int main () {                              | MAIN
+int main () {                              MAIN
 int num1 = 2;                              |
 int num2 = 2;                              |
  potencia (num1, num2);                    |
@@ -389,7 +389,7 @@ if(n<0){                                   |
 }else if(n>1){                             |
          return n*fact(n-1)                |
 }                                          |
-int main(){                                |
+int main(){                                MAIN
 int a = 5;                                 |
 return fact(a);                            |
 }                                          |
