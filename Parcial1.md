@@ -562,19 +562,30 @@ int num1 = 2;                    num1=%I0              |0024|MOV 2 %I0
 int num2 = 2;                    num2=%I1              |0028|MOV 2 %I1
  pot(num1, num2);                                      |002C|CALL pot
 }                                                      
-
-Formato 3       op  rd    op3    rs1  i    imm                 HEX
-ADD %L0 1 %L0  |10|10000|000000|10000|1|0000000000001        A0042001
+              op  rd    op3   rs1   i      imm                       HEX
+MOV 0 %L0     10|10000|000010|00000|1|0000000000000                A0102000 
+              op  rd    op3    rs1  i     imm
+MOV 0 %O0     10|01000|000010|00000|1|0000000000000                90102000
+              op  rd    op3    rs1  i  unused   rs2 
+CMP %L0 %I0   10|00000|010100|10000|0|00000000|11000               80A40018
+          op a cond             
+BGE  A    00|1|1011|010|0000000000000000000100                     36800004 
+                 op  rd    op3    rs1  i     imm
+ADD %L0 1 %L0    10|01000|000000|01000|1|0000000000001             90022001
+        op  a   cond             
+BA      00| 1 | 1000 | 010 | 1111111111111111111100                30BFFFFC
+Formato 3       op  rd    op3    rs1  i    imm                 
+ADD %L0 1 %L0  |10|10000|000000|10000|1|0000000000001              A0042001
 Formato 3       op  rd    op3    rs1  i    imm
-JMPL %07 8 %G0 |10|00000|111000|01000|1|0000000001000        81C22008
+JMPL %07 8 %G0 |10|00000|111000|01000|1|0000000001000              81C22008
 Formato 2
-NOP |00|00000|100|0000000000000000000000|                    1000000
+NOP |00|00000|100|0000000000000000000000|                          1000000
 Formato 3  op  rd    op3    rs1  i    imm
-MOV 2 %I0 |10|11000|000010|00000|1|0000000000010             B0102002
+MOV 2 %I0 |10|11000|000010|00000|1|0000000000010                   B0102002
 Formato 3  op  rd    op3    rs1  i    imm
-MOV 2 %I1 |10|11001|000010|00000|1|0000000000010             B2102002
+MOV 2 %I1 |10|11001|000010|00000|1|0000000000010                   B2102002
 Formato 1 OP      DIS30
-CALL      |01|111111111111111111111111111101|                7FFFFFFD
+CALL      |01|111111111111111111111111111101|                      7FFFFFFD
 ```
 ***28. Implemente una función **Fact** en lenguaje de alto nivel, lenguaje ensamblador **SPARC V8** y lenguaje de máquina SPARC V8 que calcule el factorial de un número entero sin signo.***
 ```
