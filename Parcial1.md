@@ -156,7 +156,31 @@ instrucciones algebraicas..
 18. ¿Qué es **PSR** ?, explique cada uno de sus campos.
 
 ```
+Processor State Register (PSR) 
+|Impl|Ver|Icc|Reserved|EC|EF|PIL|S|PS|ETCWP|
 
+El PSR contiene varios campos de control y estado
+se modifica mediante las instrucciones SAVE, RESTORE,
+Ticc, y RETT (y todas las instrucciones que modifican
+flags)
+Acceso al PSR
+
+Instrucciones privilegiadas RDPSR, WRPSR
+1Impl, ver: identificadores de una implementación
+2Icc: códigos de condición de la IU. Modificados por las
+instrucciones enteras cc (por ejemplo ANDcc), y WRPSR
+3 EC, EF: determinan habilitación de los coprocesadores
+4Obs: se puede controlar acceso del software a
+coprocesadores utilizando estos bits
+5 PIL: interrupt_level
+6 S: Bit Supervisor
+7 PS: bit previous_supervisor. Contiene el valor de S cuando
+ocurrió el trap más reciente
+8 ET: Enable_traps. Un trap pone este bit ET = 0
+89 CWP: Current Window Pointer
+El hardware decrementa el CWP en las traps e instrucciones
+SAVE, y lo incrementa en las instrucciones RESTORE y RETT
+(modulo NWINDOWS)
 ```
 19. ¿ Qué es **ICC** y **CWP**?
 
