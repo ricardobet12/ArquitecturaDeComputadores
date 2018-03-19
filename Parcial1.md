@@ -66,7 +66,16 @@ Una instruccion es una especificacion que detallas las instrucciones de una unid
 9. ¿Qué es SPARCV8?
 
 ```
-Es una arquitectura para un procesador de 32Bits donde cada registro esta compuesto de 32Bits
+Es una arquitectura para un procesador de 32Bits donde cada registro esta compuesto de 32Bits.
+SPARC (del inglés Scalable Processor ARChitecture) es una arquitectura RISC big-endian. Es decir, una
+arquitectura con un conjunto de instrucciones reducidas.
+Fue originalmente diseñada por Sun Microsystems en 1985, se basa en los diseños RISC I y II de la
+
+Universidad de California en Berkeley que fueron definidos entre los años 1980 y 1982.
+La empresa Sun Microsystems diseñó esta arquitectura y la licenció a otros fabricantes como Texas
+Instruments, Cypress Semiconductor, Fujitsu, LSI Logic entre otros.
+SPARC es la primera arquitectura RISC abierta y como tal, las especificaciones de diseño están
+publicadas, así otros fabricantes de microprocesadores pueden desarrollar su propio diseño.
 ```
 10. ¿Cuáles son las categorías de instrucciones de la arquitectura SPARCV8?
 ```
