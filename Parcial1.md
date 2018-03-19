@@ -92,6 +92,14 @@ se incluyen para leer y grabar el contenido de varios registros de control.
 11. ¿Que tipos de registros se encuentran en SPARC V8?
 
 ```
+Hay 4 tipos de registros.
+Registros de entrada:
+in[0]-in[7] r[24]-r[31]
+Registros locales:
+local[0]-local[7] r[16]-r[23]
+Registros de salida
+out[0]-out[7] r[8]-r[15]
+
 
 ```
 12. ¿ Cuál es el número mínimo y máximo de registros que se puede implementar en la arquitectura SPARCV8?
