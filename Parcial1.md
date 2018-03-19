@@ -14,7 +14,11 @@
 5. Muestre la clasificación de la jerarquía de un equipo de cómputo.
 
 6. ¿Qué es un compilador?
-
+```
+Un compilador es un programa informático, que se encarga de traducir el código fuente de una aplicación.
+Es decir convierte un lenguaje de programación "ALTO NIVEL" a Lenguaje maquina también conocido "BAJO NIVEL".
+básicamente un compilador toma como entrada de texto escrito y da como salida otro texto. 
+```
 7. ¿ Defina qué es una instrucción?
 
 8. ¿Cuales son los principios básicos de diseño de hardware de una arquitectura de cómputo, escriba una definición de cada uno?
@@ -53,13 +57,6 @@
 
 22. ¿Para qué la instrucción **CALL** utiliza el registro %O7?.
 
-
-6 .Que es un compilador?
-```
-Un compilador es un programa informático, que se encarga de traducir el código fuente de una aplicación.
-Es decir convierte un lenguaje de programación "ALTO NIVEL" a Lenguaje maquina también conocido "BAJO NIVEL".
-básicamente un compilador toma como entrada de texto escrito y da como salida otro texto. 
-```
 **23.Convertir el siguiente programa en lenguaje de máquina a lenguaje ensamblador y luego a lenguaje de alto nivel:**
 ```
 *a. 10100000000100000010000000000101*
