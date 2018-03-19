@@ -68,7 +68,7 @@ EXIT
 ```
 c.
 
- ```c
+ ```
 int main(){
 	int a = -21180;
 }
