@@ -101,7 +101,13 @@ Medicina y ciencia: En la actualidad el aporte de la tecnología es fundamental 
 ***5. Muestre la clasificación de la jerarquía de un equipo de cómputo.***
 
 ```
-
+Niveles jerárquicos de un equipo de computo.
+• Nivel 0: Registro
+• Nivel 1: Memoria caché
+• Nivel 2: Memoria primaria (RAM)
+• Nivel 3: Disco duro (con el mecanismo de memoria virtual)
+• Nivel 4: Cintas magnéticas (consideradas las más lentas, con mayor capacidad, de acceso secuencial)
+• Nivel 5: Redes (actualmente se considera un nivel más de la jerarquía de memorias)
 ```
 ***6. ¿Qué es un compilador?***
 ```
