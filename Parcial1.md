@@ -54,9 +54,9 @@ Una instruccion es una especificacion que detallas las instrucciones de una unid
 
 8. ¿Cuales son los principios básicos de diseño de hardware de una arquitectura de cómputo, escriba una definición de cada uno?
 ```
-1-La simplicidad favorece la regularidad:
+1-La simplicidad favorece la regularidad: Primero se debe resolver lo que estan dentro de los parentesis para obedecer el primer principio.
 
-2-Entre más pequeño es más rápido:
+2-Entre más pequeño es más rápido:A las variables asignarles los registros de menor a mayor para obedecer el segundo principio.
 
 3-Hacer el caso común más rápido:
 
@@ -89,19 +89,15 @@ calls, traps y branches.
 5  Instrucciones de control de registros Read/Write. Estas instrucciones
 se incluyen para leer y grabar el contenido de varios registros de control.
 ```
-¿Qué es SPARCV8?
-
-```
-
-```
 11. ¿Que tipos de registros se encuentran en SPARC V8?
+
 ```
 
 ```
 12. ¿ Cuál es el número mínimo y máximo de registros que se puede implementar en la arquitectura SPARCV8?
 
 ```
-
+La arquitectura SPARCV* tiene 40-520 registros, esta cantidad depende de la implementacion.
 ```
 
 13. ¿ Cuáles son las instrucciones de acceso a memoria de SPARCV8? de un ejemplo de cada uno.
