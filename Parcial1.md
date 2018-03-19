@@ -97,8 +97,10 @@ Registros de entrada:
 in[0]-in[7] r[24]-r[31]
 Registros locales:
 local[0]-local[7] r[16]-r[23]
-Registros de salida
+Registros de salida:
 out[0]-out[7] r[8]-r[15]
+Registros Globales:
+global[0]-global[7] r[0]-r[7]
 
 
 ```
