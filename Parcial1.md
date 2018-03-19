@@ -575,7 +575,6 @@ Formato 3  op  rd    op3    rs1  i    imm
 MOV 2 %I1 |10|11001|000010|00000|1|0000000000010             B2102002
 Formato 1 OP      DIS30
 CALL      |01|111111111111111111111111111101|                7FFFFFFD
-
 ```
 ***28. Implemente una función **Fact** en lenguaje de alto nivel, lenguaje ensamblador **SPARC V8** y lenguaje de máquina SPARC V8 que calcule el factorial de un número entero sin signo.***
 ```
