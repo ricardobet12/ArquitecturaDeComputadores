@@ -539,7 +539,7 @@ CALL  |01|111111111111111111111111111000|            7FFFFFF8
        op   rd   op3   rs1   i      imm
 OR    |10|11001|000010|00000|1|0000000000010         B2102002 
        op  rd     op3   rs1  i  unused  rs2  
-ADD   |10|01000|000000|00000|1|0000000|101101        9000202D
+ADD   |10|01000|000000|00000|0|0000000|101101        9000202D
 ```
 ***27. Implemente la función **Pot** en lenguaje de alto nivel,lenguaje ensamblador **SPARC V8** y lenguaje de máquina SPARC V8 que realice la potencia de dos números enteros sin signo realizando llamados a la función multiplicacion hecha en clase.***
 ```
@@ -561,7 +561,21 @@ int main () {                                          MAIN
 int num1 = 2;                    num1=%I0              |0024|MOV 2 %I0
 int num2 = 2;                    num2=%I1              |0028|MOV 2 %I1
  pot(num1, num2);                                      |002C|CALL pot
-}                                                      |
+}                                                      
+
+Formato 3       op  rd    op3    rs1  i    imm                 HEX
+ADD %L0 1 %L0  |10|10000|000000|10000|1|0000000000001        A0042001
+Formato 3       op  rd    op3    rs1  i    imm
+JMPL %07 8 %G0 |10|00000|111000|01000|1|0000000001000        81C22008
+Formato 2
+NOP |00|00000|100|0000000000000000000000|                    1000000
+Formato 3  op  rd    op3    rs1  i    imm
+MOV 2 %I0 |10|11000|000010|00000|1|0000000000010             B0102002
+Formato 3  op  rd    op3    rs1  i    imm
+MOV 2 %I1 |10|11001|000010|00000|1|0000000000010             B2102002
+Formato 1 OP      DIS30
+CALL      |01|111111111111111111111111111101|                7FFFFFFD
+
 ```
 ***28. Implemente una función **Fact** en lenguaje de alto nivel, lenguaje ensamblador **SPARC V8** y lenguaje de máquina SPARC V8 que calcule el factorial de un número entero sin signo.***
 ```
