@@ -477,8 +477,7 @@ int main(){					  MAIN
 	int a = 4, b = 2, c = -15600;		 |0014| MOV 4, %I0 
 	int x = test(a,b,c);			 |0018| MOV 2 %L1
 	return x + 45;				 |001C| CALL TEST
-}						 |0020| MOV 2, %I1
-						 |0024| ADD %O0,45,%O0
+}						 |0020| ADD %O0,45,%O0
 						 
 	
 ```
@@ -517,21 +516,24 @@ ADD   |10|01000|000000|00000|1|0000000|101101        9000202D
 ```
 ***27. Implemente la función **Pot** en lenguaje de alto nivel,lenguaje ensamblador **SPARC V8** y lenguaje de máquina SPARC V8 que realice la potencia de dos números enteros sin signo realizando llamados a la función multiplicacion hecha en clase.***
 ```
-int potencia (int num1, int num2) {        |
-INT i=0;                                   |
-int valor  =0;                             |
-for(i=1;i<num2;i++){                       |
-   valor=valor+num1;                       |
-}                                          |
-}                                          |
-                                           |
-int main () {                              MAIN
-int num1 = 2;                              |
-int num2 = 2;                              |
- potencia (num1, num2);                    |
-                                           |
-return potencia;                           |
-}                                          |
+#include <stdio.h>                                     |
+						       |
+int pot(int num1, int num2) {                          |     JMPL %07 8 %G0 
+int i=0;                                               |     MOV 0 %L0
+                                                       |     MOV 0 %O0
+int valor  =0;                                         |IAMFOR
+for(i=1;i<=num2;i++){                                  |     CMP %L0 %I0
+   valor=valor+num1;                                   |     BGE A ENDFOR
+    }                                                  |     ADD %O0 %I0 %O0
+printf( "El resultado es: %d", valor);                 |     BA IAMFOR
+}                                                      |     ADD %L0 1 %L0
+                                                       | ENDFOR
+						       |
+int main () {                                          MAIN
+int num1 = 2;                                          |      MOV 2 %I0
+int num2 = 2;                                          |      MOV 2 %I1
+ pot(num1, num2);                                      |      CALL pot
+}                                                      |
 ```
 ***28. Implemente una función **Fact** en lenguaje de alto nivel, lenguaje ensamblador **SPARC V8** y lenguaje de máquina SPARC V8 que calcule el factorial de un número entero sin signo.***
 ```
