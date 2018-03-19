@@ -3,7 +3,7 @@
 #### INGENIERIA DE SISTEMAS Y COMPUTACION
 ###### Jornada Especial.
 
-1. ¿Que es una arquitectura de computadores?
+***1. ¿Que es una arquitectura de computadores?***
 ```
 
 ```
