@@ -210,7 +210,10 @@ SAVE, y lo incrementa en las instrucciones RESTORE y RETT
 19. ¿ Qué es **ICC** y **CWP**?
 
 ```
-
+Icc: integer condition code, el cual contiene un bit para cada N(negativo), Z(cero),
+V(overflow), C(carry).
+Cwp: el current window pointer, CWP, identifica la ventana de registro actual. El CWP es
+almacenado en los 5 bits menos significativos del registro de estado del procesador, PSR.
 ```
 20. ¿Qué es una instrucción sintética, de dos ejemplos?
 
