@@ -241,6 +241,24 @@ E.140      00000000000000000000000010001100
 ```
 ***15. Explique las instrucciones aritmético lógicas y su sintaxis en lenguaje ensamblador.***
 ```
+Instrucciones lógicas. Son utilizadas para realizar operaciones lógicas sobre los operandos.
+AND
+NEG
+NOT
+OR
+TEST
+XOR
+Instrucciones aritméticas. Se usan para realizar operaciones aritméticas sobre los
+operandos.
+ADC
+ADD
+DIV
+IDIV
+MUL
+IMUL
+SBB
+SUB
+Ejemplos
 Syntax ADD  -->ADD rs1, rs2, rd
 
 Syntax SUB   -->SUB rs1, rs2, rd
