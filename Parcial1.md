@@ -5,7 +5,11 @@
 
 ***1. ¿Que es una arquitectura de computadores?***
 ```
-
+La arquitectura de computadoras es el diseño conceptual y la estructura operacional fundamental de
+un sistema que conforma una computadora. Es decir, es un modelo y una descripción funcional de los
+requerimientos y las implementaciones de diseño para varias partes de una computadora, con especial
+interés en la forma en que la unidad central de proceso (CPU) trabaja internamente y accede a las
+direcciones de memoria.
 ```
 ***2. Nombre las generaciones de los computadores y sus características más relevantes.***
 
@@ -79,6 +83,19 @@ Varios procesadores autónomos que ejecutan simultáneamente instrucciones difer
 ***4. Nombre las clases de aplicaciones de cómputo.***
 
 ```
+Servicio de industria:Permite aumentar el tiempo de trabajo, la productividad y como consecuencia se reducen los precios unitarios del producto, la tecnología permite la creación de nuevos empleos y servicios, evita que aumenten los paros, la tecnología aplicada al internet y comercio electrónico a largo plazo generan más empleos.
+
+Mejorar la comunicacion a distancia:Permite la coordinación de tareas y la gestión competitiva suministrando una combinación sin precedentes de flexibilidad y eficacia de las actividades, toma de decisiones coordinadas y ejecución descentralizada, expresión individualizada y comunicación global.
+
+Guerras entre estados:Dentro de este ámbito, la tecnología se aplica en la comunicación e información. Se utiliza para el diseño y creación de armamento, misiles, etc. Desgraciadamente la tecnología tiene sus desventajas como en este caso, ya que el objetivo es destruir, dañar a personas en algunos países, la ventaja viéndolo positivamente sería la creación de nuevos armamentos.
+
+Negocios empresariales:facilita el trabajo realizado, toda empresa debe contar con una computadora e internet y un software administrativo ya que facilita la comunicación y relación con otras personas. También se puede almacenar, procesar y difundir información relacionada con dicha empresa, tiene también su importancia para la capacitación de su personal obteniendo mayores beneficios.
+
+Educación: Dentro de este espacio hemos dado un gran paso, ya que con la tecnología podemos preparar nuestra clase por medio de una presentación de power point, algún material interactivo, navegación de internet. Debido a este avance se han integrado en las escuelas aula de medios, utilizando reproducción de videos, presentaciones, visitas virtuales, etc.
+
+Vida Cotidiana de la persona comun:La mayoría de las personas cuentan con una computadora y de esta manera aplicamos la tecnología, al comunicarnos a distancia, compartir información, fotografías, videos, audio, también se cuenta con la creación de un espacio o páginas personales, pero sobre todo la búsqueda de información y navegación en internet. La tecnología también está dentro de los celulares, reproductores de música, computadora, internet, las actividades que se pueden realizar son juegos, chat, espacios personales, videos.
+
+Medicina y ciencia: En la actualidad el aporte de la tecnología es fundamental en todas las áreas, imprescindible en la medicina, ya que se ocupa en el manejo de los equipos médicos de alta complejidad, permite identificar y determinar los procesos patológicos de los pacientes, tecnologías preventivas para los individuos contra alguna enfermedad, también para el progreso de las metodologías de estudio de los seres vivos y avances de la manipulación genética útiles para la salud humana.
 
 ```
 ***5. Muestre la clasificación de la jerarquía de un equipo de cómputo.***
