@@ -211,15 +211,36 @@ int main(){					  MAIN
 ```
 	
 ```
-				
-FORMATO 3:                      OP  RD    OP3    RS1  I    IMM
-JMPL %07 8 %G0 FORMATO 3       |10|00000|111000|01000|1|0000000001000|  HEXA: 81C22008
-FORMATO 3:                      OP  RD    OP3    RS1  I    IMM
-MOV 0 %L4                      |10|00000|000010|00000|1|0000000000000|  HEXA: 80102000
-FORMATO 3:                      OP  RD    OP3    RS1  I UNSIDED   RS2
-SUB %L3 %I1 %L3                |10|10011|000100|10011|0|00000000|11001| HEXA: A624C019
-FORMATO 3:                      OP  RD    OP3    RS1  I    IMM
-SLL %I2 2 %00                  |10|01000|100101|11010|1|0000000000001|  HEXA: 912EA001
+Formatos
+      op   rd   op3    rs1  i     imm                  HEX
+JPML |10|00000|111000|01000|1|0000000001000          81C22008
+      op   rd   op3    rs1  i     imm      
+OR   |10|01001|000010|00000|1|0000101000100          92102144
+      op  rd    op3    rs1  i  unused   rs2 
+Sub  |10|10000|000100|11000|0|00000000|11001         A0260019 
+      op  rd    op3    rs1  i     imm
+SLL  |10|10001|100101|11010|1|0000000000010          A32EA002
+      op  rd     op3   rs1  i  unused   rs2
+Add  |10|01001|000000|10000|0|00000000|10001         92040011
+      op  rd     op3   rs1  i     imm
+Add  |10|01001|000000|01001|1|0000000000010          92026002
+      op  rd    op3    rs1  i     imm
+OR   |10|11000|000010|00000|1|0000000000100          B0102004
+
+ SETHI
+-15600= 1111111111111111110000|1100010000
+             4'194.288            784
+	     
+       op   rd            operation                  	     
+SETHI |00|11010|100|1111111111111111110000           353FFFF0
+       op  rd    op3   rs1   i    imm
+OR    |10|11010|000010|00000|1|0001100010000         34102310     
+   
+CALL  |01|111111111111111111111111111000|            7FFFFFF8 
+       op   rd   op3   rs1   i      imm
+OR    |10|11001|000010|00000|1|0000000000010         B2102002 
+       op  rd     op3   rs1  i  unused  rs2  
+ADD   |10|01000|000000|00000|1|0000000|101101        9000202D
 ```
 27. Implemente la función **Pot** en lenguaje de alto nivel,lenguaje ensamblador **SPARC V8** y lenguaje de máquina SPARC V8 que realice la potencia de dos números enteros sin signo realizando llamados a la función multiplicacion hecha en clase.
 ```
