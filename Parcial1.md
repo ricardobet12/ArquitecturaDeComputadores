@@ -10,7 +10,51 @@
 2. Nombre las generaciones de los computadores y sus características más relevantes.
 
 ```
+**Primera generación (1951-1958)**
+Sistemas constituidos por tubos de vacío.
+Máquinas grandes y pesadas. se construye el ordenador ENIAC de grandes dimensiones (30 toneladas).
+Alto consumo de energía.
+Continúas fallas o interrupciones en el proceso.
+Programación en lenguaje de máquina.
+Uso de tarjetas perforadas para suministrar datos y los programas.
 
+**Segunda generación (1959- 1964)**
+Los transistores eran más rápidos, pequeños y más confiables que los tubos al vacío.
+Disminución del tamaño.
+Disminución del consumo y de la producción de calor.
+Mayor rapidez, la velocidad de las operaciones ya no se mide en segundos sino en milisegundos.
+Instrumentos de almacenamiento: cintas y discos.
+Lenguajes de programación de alto nivel, más potentes y ensambladores (fortran, cobol y algol)
+
+**Tercera generación (1964-1971)**
+Se desarrollaron circuitos integrados para procesar información.
+Se desarrollaron los "chips" para almacenar y procesar la información. Un "chip" es una pieza de silicio que contiene los componentes electrónicos en miniatura llamados semiconductores. -Los circuitos integrados recuerdan los datos, ya que almacenan la información como cargas eléctricas.
+Surge la multiprogramación.
+Las computadoras pueden llevar a cabo ambas tareas de procesamiento o análisis matemáticos.
+Emerge la industria del "software".
+Se desarrollan las minicomputadoras IBM 360 y DEC PDP-1.
+Otra vez las computadoras se tornan más pequeñas, más ligeras y más eficientes.
+Consumían menos electricidad, por lo tanto, generaban menos calor.
+
+**Cuarta generación (1971-1982)**
+Se desarrolló el microprocesador.
+Se colocan más circuitos dentro de un "chip".
+"LSI - Large Scale Integration circuit".
+"VLSI - Very Large Scale Integration circuit".
+Cada "chip" puede hacer diferentes tareas.
+Un "chip" sencillo actualmente contiene la unidad de control y la unidad de aritmética/lógica. El tercer componente, la memoria primaria, es operado por otros "chips".
+Se reemplaza la memoria de anillos magnéticos por la memoria de "chips" de silicio.
+Se desarrollan las microcomputadoras, o sea, computadoras personales o PC.
+Se desarrollan las supercomputadoras..
+
+**Quinta generación(1982 hasta nuestros días:**
+lenguaje natural y lenguajes de programación: PROGOL Y LISP
+Capacidad de traducción entre lenguajes que permitiran la traduccipón intantanea de lenguajes hablados y escritos.
+Caracteristicas de procesamiento similares a las secuencias de procesamiento humano.
+Aumenta la capacidad de memoria.
+Inteligencia artifial que recoge en su seno a sistemas expertos,lenguaje natural, robotica y reconocimiento de la voz
+Se desarrollan las microcomputadoras, o sea, computadoras personales o PC.
+Se desarrollan las supercomputadoras
 ```
 3. Segun Flynn ¿ Cuál es la clasificación de las arquitecturas?
 
