@@ -9,26 +9,23 @@ Un compilador es un programa informático, que se encarga de traducir el código
 Es decir convierte un lenguaje de programación "ALTO NIVEL" a Lenguaje maquina también conocido "BAJO NIVEL".
 básicamente un compilador toma como entrada de texto escrito y da como salida otro texto. 
 ```
-23.Convertir el siguiente programa en lenguaje de máquina a lenguaje ensamblador y luego a lenguaje de alto nivel:
+**23.Convertir el siguiente programa en lenguaje de máquina a lenguaje ensamblador y luego a lenguaje de alto nivel:**
 ```
- a. 10100000000100000010000000000101
- op   rd       op3     rs1    i        inm
-10 | 10000 | 000010 | 00000 | 1 | 0000000000101
+*a. 10100000000100000010000000000101*
+OP   RD    OP3   RS1  I      IMM
+10|10000|000010|00000|1|0000000000101
 OR %g0, 5, %L0
-```
-```
-b. 10100010000100000011111111111010
-op   rd       op3     rs1    i        inm
-10 | 10001 | 000010 | 00000 | 1 | 1111111111010 
+
+
+*b. 10100010000100000011111111111010*
+OP  RD     OP3   RS1  I    IMM
+10|10001|000010|00000|1|1111111111010 
 OR %g0, -6, %L1
-```
-```
-c. 10010000000001000100000000010000
-op   rd       op3     rs1    i    unused     rs2
-10 | 01000 | 000000 | 10001 | 0 |00000000 | 10000
+
+*c. 10010000000001000100000000010000*
+OP  RD     OP3   RS1  I  UNUSED   RS2
+10|01000|000000|10001|0|00000000|10000
 ADD %L1, %L0, %O0
-```
-``` 
 int main(){
 int a = 5;
 int b = -6;
@@ -36,30 +33,32 @@ return a+b;
 }
 ```
 
-24.Solucione el siguiente programas en lenguaje ensamblador, lenguaje de máquina y hexadecimal, además coloque 
-su dirección de memoria.
+**24.Solucione el siguiente programas en lenguaje ensamblador, lenguaje de máquina y hexadecimal, además coloque 
+su dirección de memoria.**
 ```                                         
-int main(){                                    
-        int i = 5;      i=%L0
-        int b = -4;     b=%L1
-        int c[100];     c=%L2
-        int d[20];      d=%L3
-        c[5] = i + 2;
-        d[4] = b + 3;
-        return c[5] + d[4] -i
-```
-```   
-DIR                                   op   rd   op3    rs1  i     inm             HEX
-00000   mov 5, %L0                    10|10000|000010|00000|1|0000000000101     A0102005
-00004   mov -4, %L1                   10|10001|000010|00000|1|1111111111100     A2103FFC
-00008   Ld[%L2 + (100*4)], %L4        11|10100|000000|10010|1|0000110010000     E8046190
-0000C   Ld[%L3 + (20*4)], %L5         11|10101|000000|10011|1|0000001010000     EA04E050
-00010   add %L0, 2, %L6               10|10110|000000|10000|1|0000000000010     AC042002
-00014   St %L6, [%L2 + (5*4)]         11|10110|000100|10010|1|0000000010100     EC24A014
-00018   add %L1, 3, %L1               10|10001|000000|10001|1|0000000000011     A2046003
-0001C   St %L1,[%L3 + (4*4)]          11|10001|000100|10011|1|0000000010000     E224E010
-00020   add %L2, %L3, %L2             10|10010|000000|10010|0|00000000|10011    A4048013
-00024   SUB %L2, %L0, %O0             10|01000|000100|10010|0|00000000|10000    90248010
+int main(){                               
+        int i = 5;      i=%L0      |0000   mov 5, %L0
+        int b = -4;     b=%L1      |0004   mov -4, %L1
+        int c[100];     c=%L2      |0008   Ld[%L2 + (100*4)], %L4        
+        int d[20];      d=%L3      |000C   Ld[%L3 + (20*4)], %L5         
+        c[5] = i + 2;              |0010   add %L0, 2, %L6               
+        d[4] = b + 3;              |0014   St %L6, [%L2 + (5*4)]         
+        return c[5] + d[4] -i      |0018   add %L1, 3, %L1       
+                                   |001C   St %L1,[%L3 + (4*4)]          
+                                   |0020   add %L2, %L3, %L2  
+                                   |0024   SUB %L2, %L0, %O0             
+   
+OP  RD    OP3    RS1  I    IMM              HEX
+10|10000|000010|00000|1|0000000000101     A0102005                   
+10|10001|000010|00000|1|1111111111100     A2103FFC
+11|10100|000000|10010|1|0000110010000     E8046190
+11|10101|000000|10011|1|0000001010000     EA04E050
+10|10110|000000|10000|1|0000000000010     AC042002
+11|10110|000100|10010|1|0000000010100     EC24A014
+10|10001|000000|10001|1|0000000000011     A2046003
+11|10001|000100|10011|1|0000000010000     E224E010
+10|10010|000000|10010|0|00000000|10011    A4048013
+10|01000|000100|10010|0|00000000|10000    90248010
 ```
 
 25. Convierta el siguiente código a lenguaje ensamblador, máquina **SPARC V8** y hexadecimal.
@@ -171,4 +170,3 @@ SUB %L3 %I1 %L3                |10|10011|000100|10011|0|00000000|11001| HEXA: A6
 FORMATO 3:                      OP  RD    OP3    RS1  I    IMM
 SLL %I2 2 %00                  |10|01000|100101|11010|1|0000000000001|  HEXA: 912EA001
 ```
-.
