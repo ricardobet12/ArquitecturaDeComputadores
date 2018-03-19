@@ -161,22 +161,30 @@ Syntax OR   -->OR rs1, rs2 ó inm, rd
 16. Explique cada uno de los campos de los 3 formatos de la arquitectura SPARC V8.
 ```
 Formato 1 - Instrucciones de salto:
-La instrucción de llamada SPARC , utilizada para transferir el control a
-cualquier parte del espacio de direcciones de 32 bits es así:
 Sólo hay una instrucción en la máquina SPARC que es de la forma
 número uno llamada (CALL) o instrucción de llamada. 
+|OP|disp30|
 
 Formato 2 - Intrucciones Branch y Sethi:
+|op|rd|op2|imm22|con inmediato
+|op|a|cond|op2|disp22|instruccion branch
 
 Formato 3: - Instrucciones algebraicas:
 Este tipo de instrucciones son las más comunes. Estas son las
-instrucciones algebraicas..
+instrucciones algebraicas.
+op|rd|op3|rs1|i=1|UNSUED|RS2
+op|rd|op3|rs1|i=0| simm13
+ 
 ```
 
 17. ¿Qué diferencia hay entre el campo **op, op2 y op3**?
 
 ```
+OP:Indica que instrucción se va a realizar, ya sea una de memoria, aritmetico logicas, branch etc
 
+OP2:Indica que es un formato 2 con instrucciones de branch, sethi.
+
+OP3:Indica dependiendo del OP el tipo de instruccion que se esta realizando, ya sea ADD, OR,LOAD,STORE
 ```
 18. ¿Qué es **PSR** ?, explique cada uno de sus campos.
 
