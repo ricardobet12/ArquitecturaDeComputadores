@@ -242,9 +242,11 @@ ADD   |10|01000|000000|00000|1|0000000|101101        9000202D
 27. Implemente la función **Pot** en lenguaje de alto nivel,lenguaje ensamblador **SPARC V8** y lenguaje de máquina SPARC V8 que realice la potencia de dos números enteros sin signo realizando llamados a la función multiplicacion hecha en clase.
 ```
 int potencia (int num1, int num2) { 
+INT i=0;
 int valor  =0;
-valor = num1 ^ num2;
-return valor;
+for(i=1;i<num2;i++){
+   valor=valor+num1;
+}
 }
 
 int main () { 
