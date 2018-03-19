@@ -133,14 +133,13 @@ c[5] = i + 2;        add %L0, 2, %L6
 ```
 15. Explique las instrucciones aritmético lógicas y su sintaxis en lenguaje ensamblador.
 ```
-las instrucciones aritmético lógicas son las que permiten realizar procesos dependiendo si tiene un inmediato o no
-dando un ejemplo ADD %L0,2,%L0 su formato debe estar llenado de la siguiente manera:
-op  rd    op3    rs1  i      inm  
-10|10010|000010|00000|1|0000000000010
-dando el ejemplo ADD %L0,%L1,%L0 en el formato debe ir de la siguiente manera:
-op    rd    op3   rs1  i unused   rs2
-|10|10000|000000|10000|0|0000000|10001
+Syntax ADD  -->ADD rs1, rs2, rd
 
+Syntax SUB   -->SUB rs1, rs2, rd
+
+Syntax AND  -->AND rs1, rs2 ó inm, rd
+
+Syntax OR   -->OR rs1, rs2 ó inm, rd
 ```
 
 16. Explique cada uno de los campos de los 3 formatos de la arquitectura SPARC V8.
