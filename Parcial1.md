@@ -9,7 +9,7 @@
 ```
 2. Nombre las generaciones de los computadores y sus características más relevantes.
 
-```
+
 **Primera generación (1951-1958)**
 Sistemas constituidos por tubos de vacío.
 Máquinas grandes y pesadas. se construye el ordenador ENIAC de grandes dimensiones (30 toneladas).
@@ -55,7 +55,8 @@ Aumenta la capacidad de memoria.
 Inteligencia artifial que recoge en su seno a sistemas expertos,lenguaje natural, robotica y reconocimiento de la voz
 Se desarrollan las microcomputadoras, o sea, computadoras personales o PC.
 Se desarrollan las supercomputadoras
-```
+
+
 3. Segun Flynn ¿ Cuál es la clasificación de las arquitecturas?
 
 ```
