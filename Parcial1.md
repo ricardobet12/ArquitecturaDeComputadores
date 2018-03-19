@@ -25,6 +25,7 @@ Una instruccion es una especificacion que detallas las instrucciones de una unid
 ```
 
 8. ¿Cuales son los principios básicos de diseño de hardware de una arquitectura de cómputo, escriba una definición de cada uno?
+```
 1-La simplicidad favorece la regularidad:
 
 2-Entre más pequeño es más rápido:
@@ -32,15 +33,11 @@ Una instruccion es una especificacion que detallas las instrucciones de una unid
 3-Hacer el caso común más rápido:
 
 4-Buenos diseños demandan grandes compromisos:
-
+```
 
 9. ¿Qué es SPARCV8?
 
 10. ¿Cuáles son las categorías de instrucciones de la arquitectura SPARCV8?
-
-¿Qué es SPARCV8?
-
-11. ¿Que tipos de registros se encuentran en SPARC V8?
 ```
 1 LOAD y STORE (La única manera de acceder a la memoria). Estas
 instrucciones usan dos registros o un registro y una constante para
@@ -60,6 +57,12 @@ calls, traps y branches.
 
 5  Instrucciones de control de registros Read/Write. Estas instrucciones
 se incluyen para leer y grabar el contenido de varios registros de control.
+```
+¿Qué es SPARCV8?
+
+11. ¿Que tipos de registros se encuentran en SPARC V8?
+```
+
 ```
 12. ¿ Cuál es el número mínimo y máximo de registros que se puede implementar en la arquitectura SPARCV8?
 
