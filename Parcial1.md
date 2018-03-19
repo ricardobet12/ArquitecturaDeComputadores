@@ -221,6 +221,9 @@ SUB %L3 %I1 %L3                |10|10011|000100|10011|0|00000000|11001| HEXA: A6
 FORMATO 3:                      OP  RD    OP3    RS1  I    IMM
 SLL %I2 2 %00                  |10|01000|100101|11010|1|0000000000001|  HEXA: 912EA001
 ```
+27. Implemente la función **Pot** en lenguaje de alto nivel,lenguaje ensamblador **SPARC V8** y lenguaje de máquina SPARC V8 que realice la potencia de dos números enteros sin signo realizando llamados a la función multiplicacion hecha en clase.
+
+
 28. Implemente una función **Fact** en lenguaje de alto nivel, lenguaje ensamblador **SPARC V8** y lenguaje de máquina SPARC V8 que calcule el factorial de un número entero sin signo.
 ```
 int fact(int n){             
