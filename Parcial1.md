@@ -7,7 +7,7 @@
 ```
 
 ```
-2. Nombre las generaciones de los computadores y sus características más relevantes.
+***2. Nombre las generaciones de los computadores y sus características más relevantes.***
 
 
 **Primera generación (1951-1958)**
@@ -57,7 +57,7 @@ Se desarrollan las microcomputadoras, o sea, computadoras personales o PC.
 Se desarrollan las supercomputadoras
 
 
-3. Segun Flynn ¿ Cuál es la clasificación de las arquitecturas?
+***3. Segun Flynn ¿ Cuál es la clasificación de las arquitecturas?***
 
 ```
 Una instrucción, un dato (SISD)
@@ -76,23 +76,23 @@ Múltiples instrucciones, múltiples datos (MIMD)
 Artículo principal: MIMD
 Varios procesadores autónomos que ejecutan simultáneamente instrucciones diferentes sobre datos diferentes. 
 ```
-4. Nombre las clases de aplicaciones de cómputo.
+***4. Nombre las clases de aplicaciones de cómputo.***
 
 ```
 
 ```
-5. Muestre la clasificación de la jerarquía de un equipo de cómputo.
+***5. Muestre la clasificación de la jerarquía de un equipo de cómputo.***
 
 ```
 
 ```
-6. ¿Qué es un compilador?
+***6. ¿Qué es un compilador?***
 ```
 Un compilador es un programa informático, que se encarga de traducir el código fuente de una aplicación.
 Es decir convierte un lenguaje de programación "ALTO NIVEL" a Lenguaje maquina también conocido "BAJO NIVEL".
 básicamente un compilador toma como entrada de texto escrito y da como salida otro texto. 
 ```
-7. ¿ Defina qué es una instrucción?
+***7. ¿ Defina qué es una instrucción?***
 ```
 Una instruccion es una especificacion que detallas las instrucciones de una unidad central de procesamiento  puede entender y ejecutar, o el conjunto de todos los comandos implementados por un diseño particular de una CPU.
 
@@ -104,7 +104,7 @@ registros de origen y destino de la CPU, y en ocasiones un dato inmediato (aquel
 explícitamente en la instrucción).
 ```
 
-8. ¿Cuales son los principios básicos de diseño de hardware de una arquitectura de cómputo, escriba una definición de cada uno?
+***8. ¿Cuales son los principios básicos de diseño de hardware de una arquitectura de cómputo, escriba una definición de cada uno?***
 ```
 1-La simplicidad favorece la regularidad: Primero se debe resolver lo que estan dentro de los parentesis para obedecer el primer principio.
 
@@ -115,7 +115,7 @@ explícitamente en la instrucción).
 4-Buenos diseños demandan grandes compromisos:
 ```
 
-9. ¿Qué es SPARCV8?
+***9. ¿Qué es SPARCV8?***
 
 ```
 Es una arquitectura para un procesador de 32Bits donde cada registro esta compuesto de 32Bits.
@@ -129,7 +129,7 @@ Instruments, Cypress Semiconductor, Fujitsu, LSI Logic entre otros.
 SPARC es la primera arquitectura RISC abierta y como tal, las especificaciones de diseño están
 publicadas, así otros fabricantes de microprocesadores pueden desarrollar su propio diseño.
 ```
-10. ¿Cuáles son las categorías de instrucciones de la arquitectura SPARCV8?
+***10. ¿Cuáles son las categorías de instrucciones de la arquitectura SPARCV8?***
 ```
 1 LOAD y STORE (La única manera de acceder a la memoria). Estas
 instrucciones usan dos registros o un registro y una constante para
@@ -150,7 +150,7 @@ calls, traps y branches.
 5  Instrucciones de control de registros Read/Write. Estas instrucciones
 se incluyen para leer y grabar el contenido de varios registros de control.
 ```
-11. ¿Que tipos de registros se encuentran en SPARC V8?
+***11. ¿Que tipos de registros se encuentran en SPARC V8?***
 
 ```
 Hay 4 tipos de registros.
@@ -165,13 +165,13 @@ global[0]-global[7] r[0]-r[7]
 
 
 ```
-12. ¿ Cuál es el número mínimo y máximo de registros que se puede implementar en la arquitectura SPARCV8?
+***12. ¿ Cuál es el número mínimo y máximo de registros que se puede implementar en la arquitectura SPARCV8?***
 
 ```
 La arquitectura SPARCV* tiene 40-520 registros, esta cantidad depende de la implementacion.
 ```
 
-13. ¿ Cuáles son las instrucciones de acceso a memoria de SPARCV8? de un ejemplo de cada uno.
+***13. ¿ Cuáles son las instrucciones de acceso a memoria de SPARCV8? de un ejemplo de cada uno.***
 ```
  LOAD y STORE (La única manera de acceder a la memoria). Estas
 instrucciones usan dos registros o un registro y una constante para
@@ -184,7 +184,7 @@ c[5] = i + 2;        add %L0, 2, %L6
 
 ```
 
-14. Represente los siguientes números en complemento a 2.
+***14. Represente los siguientes números en complemento a 2.***
 ```
 A.5       00000000000000000000000000000101
           11111111111111111111111111111010
@@ -216,7 +216,7 @@ E.140      00000000000000000000000010001100
            ________________________________
      -140= 11111111111111111111111101110100
 ```
-15. Explique las instrucciones aritmético lógicas y su sintaxis en lenguaje ensamblador.
+***15. Explique las instrucciones aritmético lógicas y su sintaxis en lenguaje ensamblador.***
 ```
 Syntax ADD  -->ADD rs1, rs2, rd
 
@@ -227,7 +227,7 @@ Syntax AND  -->AND rs1, rs2 ó inm, rd
 Syntax OR   -->OR rs1, rs2 ó inm, rd
 ```
 
-16. Explique cada uno de los campos de los 3 formatos de la arquitectura SPARC V8.
+***16. Explique cada uno de los campos de los 3 formatos de la arquitectura SPARC V8.***
 ```
 Formato 1 - Instrucciones de salto:
 Sólo hay una instrucción en la máquina SPARC que es de la forma
@@ -246,7 +246,7 @@ op|rd|op3|rs1|i=0| simm13
  
 ```
 
-17. ¿Qué diferencia hay entre el campo **op, op2 y op3**?
+***17. ¿Qué diferencia hay entre el campo **op, op2 y op3**?***
 
 ```
 OP:Indica que instrucción se va a realizar, ya sea una de memoria, aritmetico logicas, branch etc
@@ -255,7 +255,7 @@ OP2:Indica que es un formato 2 con instrucciones de branch, sethi.
 
 OP3:Indica dependiendo del OP el tipo de instruccion que se esta realizando, ya sea ADD, OR,LOAD,STORE
 ```
-18. ¿Qué es **PSR** ?, explique cada uno de sus campos.
+***18. ¿Qué es **PSR** ?, explique cada uno de sus campos.***
 
 ```
 Processor State Register (PSR) 
@@ -284,7 +284,7 @@ El hardware decrementa el CWP en las traps e instrucciones
 SAVE, y lo incrementa en las instrucciones RESTORE y RETT
 (modulo NWINDOWS)
 ```
-19. ¿ Qué es **ICC** y **CWP**?
+***19. ¿ Qué es **ICC** y **CWP**?***
 
 ```
 Icc: integer condition code, el cual contiene un bit para cada N(negativo), Z(cero),
@@ -292,7 +292,7 @@ V(overflow), C(carry).
 Cwp: el current window pointer, CWP, identifica la ventana de registro actual. El CWP es
 almacenado en los 5 bits menos significativos del registro de estado del procesador, PSR.
 ```
-20. ¿Qué es una instrucción sintética, de dos ejemplos?
+***20. ¿Qué es una instrucción sintética, de dos ejemplos?***
 
 ```
 Es la forma corta para representar una instruccion en SPARV8
@@ -301,16 +301,16 @@ OR %G0 5 %L0 --->  MOV 5 %L0
 Ejemplo 2
 SUBCC %L0 0 %G0 --> CMP %L0 0
 ```
-21. ¿Qué significa el campo **a** para una instrucción BRANCH?.
+***21. ¿Qué significa el campo **a** para una instrucción BRANCH?.***
 ```
 Se utiliza el campo a para que la instruccion Branch no realize el Ds
 ```
-22. ¿Para qué la instrucción **CALL** utiliza el registro %O7?.
+***22. ¿Para qué la instrucción **CALL** utiliza el registro %O7?.***
 ```
 El registro %O7 se utiliza como registro temporar para que el CALL le pueda pasar informacion al JMPL
 ```
 
-**23.Convertir el siguiente programa en lenguaje de máquina a lenguaje ensamblador y luego a lenguaje de alto nivel:**
+***23.Convertir el siguiente programa en lenguaje de máquina a lenguaje ensamblador y luego a lenguaje de alto nivel:***
 ```
 *a. 10100000000100000010000000000101*
 OP   RD    OP3   RS1  I      IMM
@@ -335,8 +335,8 @@ return a+b;
 }
 ```
 
-**24.Solucione el siguiente programas en lenguaje ensamblador, lenguaje de máquina y hexadecimal, además coloque 
-su dirección de memoria.**
+***24.Solucione el siguiente programas en lenguaje ensamblador, lenguaje de máquina y hexadecimal, además coloque 
+su dirección de memoria.***
 ```                                         
 int main(){                               
         int i = 5;      i=%L0      |0000   mov 5, %L0
@@ -363,7 +363,7 @@ OP  RD    OP3    RS1  I    IMM              HEX
 10|01000|000100|10010|0|00000000|10000    90248010
 ```
 
-25. Convierta el siguiente código a lenguaje ensamblador, máquina **SPARC V8** y hexadecimal.
+***25. Convierta el siguiente código a lenguaje ensamblador, máquina **SPARC V8** y hexadecimal.***
 ```
 a.
                           D. Memory
@@ -442,7 +442,7 @@ OR
 
 ```
 
-26. Convierta el siguiente código a lenguaje ensamblador, máquina **SPARC V8** y hexadecimal.
+***26. Convierta el siguiente código a lenguaje ensamblador, máquina **SPARC V8** y hexadecimal.***
  ```
  
 int test(int x, int y, int w){          	 |0000| JMPL %07, 8 ,%G0
@@ -492,7 +492,7 @@ OR    |10|11001|000010|00000|1|0000000000010         B2102002
        op  rd     op3   rs1  i  unused  rs2  
 ADD   |10|01000|000000|00000|1|0000000|101101        9000202D
 ```
-27. Implemente la función **Pot** en lenguaje de alto nivel,lenguaje ensamblador **SPARC V8** y lenguaje de máquina SPARC V8 que realice la potencia de dos números enteros sin signo realizando llamados a la función multiplicacion hecha en clase.
+***27. Implemente la función **Pot** en lenguaje de alto nivel,lenguaje ensamblador **SPARC V8** y lenguaje de máquina SPARC V8 que realice la potencia de dos números enteros sin signo realizando llamados a la función multiplicacion hecha en clase.***
 ```
 int potencia (int num1, int num2) {        |
 INT i=0;                                   |
@@ -510,7 +510,7 @@ int num2 = 2;                              |
 return potencia;                           |
 }                                          |
 ```
-28. Implemente una función **Fact** en lenguaje de alto nivel, lenguaje ensamblador **SPARC V8** y lenguaje de máquina SPARC V8 que calcule el factorial de un número entero sin signo.
+***28. Implemente una función **Fact** en lenguaje de alto nivel, lenguaje ensamblador **SPARC V8** y lenguaje de máquina SPARC V8 que calcule el factorial de un número entero sin signo.***
 ```
 int fact(int n){                           |
 if(n<0){                                   |
