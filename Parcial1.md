@@ -26,6 +26,7 @@ OR %g0, -6, %L1
 OP  RD     OP3   RS1  I  UNUSED   RS2
 10|01000|000000|10001|0|00000000|10000
 ADD %L1, %L0, %O0
+
 int main(){
 int a = 5;
 int b = -6;
