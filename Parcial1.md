@@ -50,6 +50,13 @@ básicamente un compilador toma como entrada de texto escrito y da como salida o
 7. ¿ Defina qué es una instrucción?
 ```
 Una instruccion es una especificacion que detallas las instrucciones de una unidad central de procesamiento  puede entender y ejecutar, o el conjunto de todos los comandos implementados por un diseño particular de una CPU.
+
+Se denomina instrucción en informática al conjunto de datos insertados en una secuencia estructurada o
+específica que el procesador interpreta y ejecuta.
+Los tipos de instrucción permitidos están definidos y determinados dentro de cada plataforma en el
+conjunto de instrucciones (en inglés ISA, instruction set architecture), que también determina los
+registros de origen y destino de la CPU, y en ocasiones un dato inmediato (aquellos que son especificados
+explícitamente en la instrucción).
 ```
 
 8. ¿Cuales son los principios básicos de diseño de hardware de una arquitectura de cómputo, escriba una definición de cada uno?
