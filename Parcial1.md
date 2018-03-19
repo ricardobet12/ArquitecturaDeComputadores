@@ -537,14 +537,19 @@ int num2 = 2;                                          |      MOV 2 %I1
 ```
 ***28. Implemente una función **Fact** en lenguaje de alto nivel, lenguaje ensamblador **SPARC V8** y lenguaje de máquina SPARC V8 que calcule el factorial de un número entero sin signo.***
 ```
-int fact(int n){                           |
-if(n<0){                                   |
-   return 0;                               |
-}else if(n>1){                             |
-         return n*fact(n-1)                |
-}                                          |
-int main(){                                MAIN
-int a = 5;                                 |
-return fact(a);                            |
-}                                          |
-
+#include <stdio.h>                           |
+					     |
+int factorial(int num) {                     |
+int i=0;                                     |
+int fact=1;                                  |
+for(i=2;i<=num;i++){                         |
+   fact=fact*i;                              |
+}                                            |
+printf( "El resultado es: %d", fact);        |            
+}                                            |
+                                             |
+int main(){                                  MAIN
+	                                     |
+    int num=5;                               |      MOV 5 %I0
+	factorial(num);                      |      CALL factorial
+}                                            |
