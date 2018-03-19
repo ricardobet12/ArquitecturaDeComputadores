@@ -388,6 +388,9 @@ OP  RD    OP3    RS1  I    IMM              HEX
 
 ***25. Convierta el siguiente código a lenguaje ensamblador, máquina **SPARC V8** y hexadecimal.***
 ```
+a=%L0
+b=%L1
+c=%L2
 a.
                           D. Memory
  int main(){             |0000| MOV 8,%L0
@@ -422,6 +425,8 @@ EXIT
 ``` 
 b. (Se hace la corrección del return c/16 cambiando el c por la a)
  ```
+ a=%L0                 
+ b=%L1 
 int main(){                            |0000 mov 8,%L0
 	int a = 8;		       |0004 mov -10,%L1
 	int b = -10;                   |0008 cmp %L0,%L1 
@@ -444,8 +449,8 @@ MULTIPLICAR
 EXIT
 ```
 c.
-
  ```
+ a= %L1
 int main(){
 	int a = -21180;
 }
@@ -467,6 +472,10 @@ OR
 
 ***26. Convierta el siguiente código a lenguaje ensamblador, máquina **SPARC V8** y hexadecimal.***
  ```
+ x=%I0
+ Y=%I1
+ W=%I2
+ X=%0O
  
 int test(int x, int y, int w){          	 |0000| JMPL %07, 8 ,%G0
 	int z;					 |0004| SUB %I0,%I1,%L0
@@ -519,9 +528,9 @@ ADD   |10|01000|000000|00000|1|0000000|101101        9000202D
 #include <stdio.h>                                     |
 						       |
 int pot(int num1, int num2) {                          |     JMPL %07 8 %G0 
-int i=0;                                               |     MOV 0 %L0
+int i=0;                          i=%L0                |     MOV 0 %L0
                                                        |     MOV 0 %O0
-int valor  =0;                                         |IAMFOR
+int valor  =0;                    valor=%O0            |IAMFOR
 for(i=1;i<=num2;i++){                                  |     CMP %L0 %I0
    valor=valor+num1;                                   |     BGE A ENDFOR
     }                                                  |     ADD %O0 %I0 %O0
@@ -530,8 +539,8 @@ printf( "El resultado es: %d", valor);                 |     BA IAMFOR
                                                        | ENDFOR
 						       |
 int main () {                                          MAIN
-int num1 = 2;                                          |      MOV 2 %I0
-int num2 = 2;                                          |      MOV 2 %I1
+int num1 = 2;                    num1=%I0              |      MOV 2 %I0
+int num2 = 2;                    num2=%I1              |      MOV 2 %I1
  pot(num1, num2);                                      |      CALL pot
 }                                                      |
 ```
@@ -550,6 +559,6 @@ printf( "El resultado es: %d", fact);        |
                                              |
 int main(){                                  MAIN
 	                                     |
-    int num=5;                               |      MOV 5 %I0
+    int num=5;               num=%I0         |      MOV 5 %I0
 	factorial(num);                      |      CALL factorial
 }                                            |
