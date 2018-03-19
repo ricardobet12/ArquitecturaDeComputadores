@@ -20,18 +20,62 @@ Es decir convierte un lenguaje de programación "ALTO NIVEL" a Lenguaje maquina 
 básicamente un compilador toma como entrada de texto escrito y da como salida otro texto. 
 ```
 7. ¿ Defina qué es una instrucción?
+```
+Una instruccion es una especificacion que detallas las instrucciones de una unidad central de procesamiento  puede entender y ejecutar, o el conjunto de todos los comandos implementados por un diseño particular de una CPU.
+```
 
 8. ¿Cuales son los principios básicos de diseño de hardware de una arquitectura de cómputo, escriba una definición de cada uno?
+1-La simplicidad favorece la regularidad:
+
+2-Entre más pequeño es más rápido:
+
+3-Hacer el caso común más rápido:
+
+4-Buenos diseños demandan grandes compromisos:
+
 
 9. ¿Qué es SPARCV8?
 
 10. ¿Cuáles son las categorías de instrucciones de la arquitectura SPARCV8?
 
-11. ¿Que tipos de registros se encuentran en SPARC V8?
+¿Qué es SPARCV8?
 
+11. ¿Que tipos de registros se encuentran en SPARC V8?
+```
+1 LOAD y STORE (La única manera de acceder a la memoria). Estas
+instrucciones usan dos registros o un registro y una constante para
+calcular la dirección de memoria a direccionar.
+
+2 Instrucciones Aritméticas/Lógicas/Shift. Ejecutan operaciones
+aritméticas, lógicas y de desplazamiento de bits. Estas instrucciones
+calculan el resultado si es una función de 2 operandos y guardan el
+resultado en un registro.
+
+3 Operaciones del Coprocesador. Extrae las operaciones de punto
+flotante desde las instrucciones del bus de datos y los coloca en la cola
+para la FPU. 
+
+4  Instrucciones de Control de Transferencia. Estas incluyen jumps,
+calls, traps y branches.
+
+5  Instrucciones de control de registros Read/Write. Estas instrucciones
+se incluyen para leer y grabar el contenido de varios registros de control.
+```
 12. ¿ Cuál es el número mínimo y máximo de registros que se puede implementar en la arquitectura SPARCV8?
 
+
 13. ¿ Cuáles son las instrucciones de acceso a memoria de SPARCV8? de un ejemplo de cada uno.
+```
+ LOAD y STORE (La única manera de acceder a la memoria). Estas
+instrucciones usan dos registros o un registro y una constante para
+calcular la dirección de memoria a direccionar.
+Ejemplo Load
+int c[100];     c=%L2   -- Ld[%L2 + (100*4)], %L4
+Ejemplo Store
+c[5] = i + 2;        add %L0, 2, %L6               
+                     St %L6, [%L2 + (5*4)] 
+
+```
 
 14. Represente los siguientes números en complemento a 2.
 ```
@@ -44,6 +88,19 @@ básicamente un compilador toma como entrada de texto escrito y da como salida o
 15. Explique las instrucciones aritmético lógicas y su sintaxis en lenguaje ensamblador.
 
 16. Explique cada uno de los campos de los 3 formatos de la arquitectura SPARC V8.
+```
+Formato 1 - Instrucciones de salto:
+La instrucción de llamada SPARC , utilizada para transferir el control a
+cualquier parte del espacio de direcciones de 32 bits es así:
+Sólo hay una instrucción en la máquina SPARC que es de la forma
+número uno llamada (CALL) o instrucción de llamada. 
+
+Formato 2 - Intrucciones Branch y Sethi:
+
+Formato 3: - Instrucciones algebraicas:
+Este tipo de instrucciones son las más comunes. Estas son las
+instrucciones algebraicas..
+```
 
 17. ¿Qué diferencia hay entre el campo **op, op2 y op3**?
 
