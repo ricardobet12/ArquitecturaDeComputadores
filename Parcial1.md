@@ -4,15 +4,29 @@
 ###### Jornada Especial.
 
 1. ¿Que es una arquitectura de computadores?
+```
 
+```
 2. Nombre las generaciones de los computadores y sus características más relevantes.
 
+```
+
+```
 3. Segun Flynn ¿ Cuál es la clasificación de las arquitecturas?
 
+```
+
+```
 4. Nombre las clases de aplicaciones de cómputo.
 
+```
+
+```
 5. Muestre la clasificación de la jerarquía de un equipo de cómputo.
 
+```
+
+```
 6. ¿Qué es un compilador?
 ```
 Un compilador es un programa informático, que se encarga de traducir el código fuente de una aplicación.
@@ -37,6 +51,9 @@ Una instruccion es una especificacion que detallas las instrucciones de una unid
 
 9. ¿Qué es SPARCV8?
 
+```
+
+```
 10. ¿Cuáles son las categorías de instrucciones de la arquitectura SPARCV8?
 ```
 1 LOAD y STORE (La única manera de acceder a la memoria). Estas
@@ -60,12 +77,18 @@ se incluyen para leer y grabar el contenido de varios registros de control.
 ```
 ¿Qué es SPARCV8?
 
+```
+
+```
 11. ¿Que tipos de registros se encuentran en SPARC V8?
 ```
 
 ```
 12. ¿ Cuál es el número mínimo y máximo de registros que se puede implementar en la arquitectura SPARCV8?
 
+```
+
+```
 
 13. ¿ Cuáles son las instrucciones de acceso a memoria de SPARCV8? de un ejemplo de cada uno.
 ```
@@ -117,12 +140,24 @@ instrucciones algebraicas..
 
 17. ¿Qué diferencia hay entre el campo **op, op2 y op3**?
 
+```
+
+```
 18. ¿Qué es **PSR** ?, explique cada uno de sus campos.
 
+```
+
+```
 19. ¿ Qué es **ICC** y **CWP**?
 
+```
+
+```
 20. ¿Qué es una instrucción sintética, de dos ejemplos?
 
+```
+
+```
 21. ¿Qué significa el campo **a** para una instrucción BRANCH?.
 ```
 Se utiliza el campo a para que la instruccion Branch no realize el Ds
