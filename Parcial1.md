@@ -592,11 +592,11 @@ CALL      |01|111111111111111111111111111101|                      7FFFFFFD
 #include <stdio.h>                           |
 					     |
 int factorial(int num) {                     |
-int i=0;                                     |
-int fact=1;                                  |
-for(i=2;i<=num;i++){                         |
-   fact=fact*i;                              |
-}                                            |
+int i=0;                         i=%L0       |     MOV 0 %L0
+int fact=1;                    fact=%O0      |     MOV 1 %O0
+for(i=2;i<=num;i++){                         |IAMFOR
+   fact=fact*i;                              |     CMP %L0 %I0
+}                                            |000C|BGE A ENDFOR
 printf( "El resultado es: %d", fact);        |            
 }                                            |
                                              |
