@@ -15,7 +15,21 @@
 3. Segun Flynn ¿ Cuál es la clasificación de las arquitecturas?
 
 ```
+Una instrucción, un dato (SISD)
+Artículo principal: SISD
+Computador secuencial que no explota el paralelismo en las instrucciones ni en flujos de datos. Es la Arquitectura Von-Neumann. Un único procesador ejecuta un sólo flujo de instrucciones para operar datos en una única memoria. 
 
+Una instrucción, múltiples datos (SIMD)
+Artículo principal: SIMD
+Todas las unidades ejecutan la misma instrucción sincronizadamente, pero con un datos distinto.
+
+Múltiples instrucciones, un dato (MISD)
+Artículo principal: MISD
+Poco común debido al hecho de que la efectividad de los múltiples flujos de instrucciones suele precisar de múltiples flujos de datos. 
+
+Múltiples instrucciones, múltiples datos (MIMD)
+Artículo principal: MIMD
+Varios procesadores autónomos que ejecutan simultáneamente instrucciones diferentes sobre datos diferentes. 
 ```
 4. Nombre las clases de aplicaciones de cómputo.
 
@@ -52,7 +66,7 @@ Una instruccion es una especificacion que detallas las instrucciones de una unid
 9. ¿Qué es SPARCV8?
 
 ```
-
+Es una arquitectura para un procesador de 32Bits donde cada registro esta compuesto de 32Bits
 ```
 10. ¿Cuáles son las categorías de instrucciones de la arquitectura SPARCV8?
 ```
