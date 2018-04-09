@@ -1,0 +1,41 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to C:/Users/utp/Desktop/Procesador1/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.36 secs
+ 
+--> Parameter xsthdpdir set to C:/Users/utp/Desktop/Procesador1/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.36 secs
+ 
+--> WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/utp/Desktop/Procesador1/Program_Counter.vhd" in Library work.
+WARNING:HDLParsers:3350 - "C:/Users/utp/Desktop/Procesador1/Program_Counter.vhd" Line 33. Null range: 0 downto 31
+WARNING:HDLParsers:3350 - "C:/Users/utp/Desktop/Procesador1/Program_Counter.vhd" Line 35. Null range: 0 downto 31
+Entity <Program_Counter> compiled.
+ERROR:HDLParsers:3312 - "C:/Users/utp/Desktop/Procesador1/Program_Counter.vhd" Line 43. Undefined symbol 'reloj'.
+ERROR:HDLParsers:1209 - "C:/Users/utp/Desktop/Procesador1/Program_Counter.vhd" Line 43. reloj: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3313 - "C:/Users/utp/Desktop/Procesador1/Program_Counter.vhd" Line 47. Undefined symbol 'salira_direccion'.  Should it be: salida_direccion?
+ERROR:HDLParsers:3313 - "C:/Users/utp/Desktop/Procesador1/Program_Counter.vhd" Line 49. Undefined symbol 'entrada_dirreccion'.  Should it be: entrada_direccion?
+ERROR:HDLParsers:1209 - "C:/Users/utp/Desktop/Procesador1/Program_Counter.vhd" Line 49. entrada_dirreccion: Undefined symbol (last report in this block)
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.68 secs
+ 
+--> 
+
+Total memory usage is 213460 kilobytes
+
+Number of errors   :    5 (   0 filtered)
+Number of warnings :    3 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

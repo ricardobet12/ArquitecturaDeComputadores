@@ -1,0 +1,17 @@
+AR pn behavioral C:/Users/utp/Desktop/Procesador1/Pn.vhd sub00/vhpl08 1522932682
+EN arithmetic_logic_unit NULL "C:/Users/Richy/Desktop/Proyectos ISE/Procesador1/ALU.vhd" sub00/vhpl15 1523281795
+AR im behavioral C:/Users/utp/Desktop/Procesador1/IM.vhd sub00/vhpl10 1522937537
+AR npc behavioral "C:/Users/Richy/Desktop/Proyectos ISE/Procesador1/nPc.vhd" sub00/vhpl01 1522800977
+EN im NULL C:/Users/utp/Desktop/Procesador1/IM.vhd sub00/vhpl09 1522937536
+EN program_counter NULL C:/Users/utp/Desktop/Procesador1/Program_Counter.vhd sub00/vhpl04 1522931802
+AR suma behavioral C:/Users/utp/Desktop/Procesador1/Suma.vhd sub00/vhpl03 1522939414
+EN pc NULL C:/Users/utp/Desktop/Procesador1/Pc.vhd sub00/vhpl05 1522932499
+EN pn NULL C:/Users/utp/Desktop/Procesador1/Pn.vhd sub00/vhpl07 1522932681
+EN rf NULL "C:/Users/Richy/Desktop/Proyectos ISE/Procesador1/RF.vhd" sub00/vhpl11 1523280755
+EN npc NULL "C:/Users/Richy/Desktop/Proyectos ISE/Procesador1/nPc.vhd" sub00/vhpl00 1522800976
+AR arithmetic_logic_unit arq_arithmetic_logic_unit "C:/Users/Richy/Desktop/Proyectos ISE/Procesador1/ALU.vhd" sub00/vhpl16 1523281796
+EN control_unit NULL "C:/Users/Richy/Desktop/Proyectos ISE/Procesador1/UC.vhd" sub00/vhpl13 1523281429
+AR pc behavioral C:/Users/utp/Desktop/Procesador1/Pc.vhd sub00/vhpl06 1522932500
+AR rf behavioral "C:/Users/Richy/Desktop/Proyectos ISE/Procesador1/RF.vhd" sub00/vhpl12 1523280756
+AR control_unit arq_control_unit "C:/Users/Richy/Desktop/Proyectos ISE/Procesador1/UC.vhd" sub00/vhpl14 1523281430
+EN suma NULL C:/Users/utp/Desktop/Procesador1/Suma.vhd sub00/vhpl02 1522939413

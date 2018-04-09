@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/Richy/Desktop/Proyectos ISE/Procesador1/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/Richy/Desktop/Proyectos ISE/Procesador1/xst"
+elaborate
+-ifn Control_Unit.prj
+-ifmt mixed

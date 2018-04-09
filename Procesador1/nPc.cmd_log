@@ -1,0 +1,3 @@
+xst -intstyle ise -ifn "C:/Users/Richy/Desktop/Proyectos ISE/Procesador1/nPc.xst" -ofn "C:/Users/Richy/Desktop/Proyectos ISE/Procesador1/nPc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-4 "nPc.ngc" nPc.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o nPc_map.ncd nPc.ngd nPc.pcf 
