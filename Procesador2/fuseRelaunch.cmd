@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/Richy/Desktop/Proyectos ISE/Procesador1/tb_SEV_isim_beh.exe" -prj "C:/Users/Richy/Desktop/Proyectos ISE/Procesador1/tb_SEV_beh.prj" "work.tb_SEV" 

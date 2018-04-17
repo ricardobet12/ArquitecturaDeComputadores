@@ -1,0 +1,29 @@
+Command line:
+   tb_RF_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  52049
+
+Tue Apr 10 13:59:00 2018
+
+
+ Elaboration Time: 0.078 sec
+
+ Current Memory Usage: 666.829 Meg
+
+ Total Signals          : 17
+ Total Nets             : 1168
+ Total Signal Drivers   : 9
+ Total Blocks           : 5
+ Total Primitive Blocks : 4
+ Total Processes        : 2
+ Total Traceable Variables  : 10
+ Total Scalar Nets and Variables : 1546
+Total Line Count : 16
+
+ Total Simulation Time: 0.0936 sec
+
+ Current Memory Usage: 666.829 Meg
+
+Tue Apr 10 13:59:18 2018
+

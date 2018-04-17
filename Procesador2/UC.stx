@@ -1,0 +1,42 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to C:/Users/Richy/Desktop/Proyectos ISE/Procesador1/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.14 secs
+ 
+--> Parameter xsthdpdir set to C:/Users/Richy/Desktop/Proyectos ISE/Procesador1/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.14 secs
+ 
+--> WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/Richy/Desktop/Proyectos ISE/Procesador1/UC.vhd" in Library work.
+Entity <control_unit> compiled.
+ERROR:HDLParsers:3010 - "C:/Users/Richy/Desktop/Proyectos ISE/Procesador1/UC.vhd" Line 31. Entity UC does not exist.
+ERROR:HDLParsers:3312 - "C:/Users/Richy/Desktop/Proyectos ISE/Procesador1/UC.vhd" Line 35. Undefined symbol 'Op3'.
+ERROR:HDLParsers:1209 - "C:/Users/Richy/Desktop/Proyectos ISE/Procesador1/UC.vhd" Line 35. Op3: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "C:/Users/Richy/Desktop/Proyectos ISE/Procesador1/UC.vhd" Line 35. Undefined symbol 'Op'.
+ERROR:HDLParsers:1209 - "C:/Users/Richy/Desktop/Proyectos ISE/Procesador1/UC.vhd" Line 35. Op: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "C:/Users/Richy/Desktop/Proyectos ISE/Procesador1/UC.vhd" Line 45. Undefined symbol 'ALUOP'.
+ERROR:HDLParsers:1209 - "C:/Users/Richy/Desktop/Proyectos ISE/Procesador1/UC.vhd" Line 47. ALUOP: Undefined symbol (last report in this block)
+WARNING:HDLParsers:1406 - "C:/Users/Richy/Desktop/Proyectos ISE/Procesador1/UC.vhd" Line 35. No sensitivity list and no wait in the process
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.18 secs
+ 
+--> 
+
+Total memory usage is 212292 kilobytes
+
+Number of errors   :    7 (   0 filtered)
+Number of warnings :    2 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+
