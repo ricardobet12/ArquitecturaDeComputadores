@@ -5,7 +5,599 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
-<msg type="warning" file="Xst" num="1336" delta="old" > (*) More than 100% of Device resources are used
+<msg type="warning" file="Xst" num="752" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Richy/Desktop/Proyectos ISE/Procesador1/procesador2.vhd</arg>&quot; line <arg fmt="%d" index="2">106</arg>: Unconnected input port &apos;<arg fmt="%s" index="3">clk</arg>&apos; of component &apos;<arg fmt="%s" index="4">IM</arg>&apos; is tied to default value.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Richy/Desktop/Proyectos ISE/Procesador1/procesador2.vhd</arg>&quot; line <arg fmt="%d" index="2">118</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Crd</arg>&apos; of component &apos;<arg fmt="%s" index="4">RF</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="819" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Richy/Desktop/Proyectos ISE/Procesador1/RF.vhd</arg>&quot; line <arg fmt="%d" index="2">58</arg>: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+<arg fmt="%s" index="3">&lt;memory&gt;</arg>
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">memory&lt;0&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">RF</arg>&gt; has a constant value of <arg fmt="%s" index="3">00000000000000000000000000000000</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">clk</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">address&lt;31:5&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="1781" delta="new" >Signal &lt;<arg fmt="%s" index="1">instructions</arg>&gt; is used but never assigned. Tied to default value.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="new" >Found <arg fmt="%d" index="1">6</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">ALUOP</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="new" >Found <arg fmt="%d" index="1">32</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">memory_16</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="new" >Found <arg fmt="%d" index="1">32</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">memory_21</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="new" >Found <arg fmt="%d" index="1">32</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">memory_17</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="new" >Found <arg fmt="%d" index="1">32</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">memory_22</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="new" >Found <arg fmt="%d" index="1">32</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">memory_18</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="new" >Found <arg fmt="%d" index="1">32</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">memory_23</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="new" >Found <arg fmt="%d" index="1">32</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">memory_19</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="new" >Found <arg fmt="%d" index="1">32</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">memory_24</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="new" >Found <arg fmt="%d" index="1">32</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">memory_25</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="new" >Found <arg fmt="%d" index="1">32</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">memory_30</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="new" >Found <arg fmt="%d" index="1">32</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">memory_26</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="new" >Found <arg fmt="%d" index="1">32</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">memory_31</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="new" >Found <arg fmt="%d" index="1">32</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">Crd</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="new" >Found <arg fmt="%d" index="1">32</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">memory_27</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="new" >Found <arg fmt="%d" index="1">32</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">memory_28</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="new" >Found <arg fmt="%d" index="1">32</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">memory_29</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="new" >Found <arg fmt="%d" index="1">32</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">memory_1</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="new" >Found <arg fmt="%d" index="1">32</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">memory_2</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="new" >Found <arg fmt="%d" index="1">32</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">memory_3</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="new" >Found <arg fmt="%d" index="1">32</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">memory_10</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="new" >Found <arg fmt="%d" index="1">32</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">memory_4</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="new" >Found <arg fmt="%d" index="1">32</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">memory_11</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="new" >Found <arg fmt="%d" index="1">32</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">memory_5</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="new" >Found <arg fmt="%d" index="1">32</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">memory_12</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="new" >Found <arg fmt="%d" index="1">32</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">memory_6</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="new" >Found <arg fmt="%d" index="1">32</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">memory_13</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="new" >Found <arg fmt="%d" index="1">32</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">memory_7</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="new" >Found <arg fmt="%d" index="1">32</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">memory_14</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="new" >Found <arg fmt="%d" index="1">32</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">memory_8</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="new" >Found <arg fmt="%d" index="1">32</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">memory_15</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="new" >Found <arg fmt="%d" index="1">32</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">memory_20</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="new" >Found <arg fmt="%d" index="1">32</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">memory_9</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="new" >Found <arg fmt="%d" index="1">32</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">ALUResult</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="info" file="Xst" num="2371" delta="new" >HDL ADVISOR - Logic functions respectively driving the data and gate enable inputs of this latch share common terms. This situation will potentially lead to setup/hold violations and, as a result, to simulation problems. This situation may come from an incomplete case statement (all selector values are not covered). You should carefully review if it was in your intentions to describe such a latch.
+</msg>
+
+<msg type="info" file="Xst" num="1767" delta="new" >HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">salida_nPC_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Inst_Pc</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">salida_nPC_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Inst_Pc</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">salida_nPC_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Inst_Pc</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">salida_nPC_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Inst_Pc</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">salida_nPC_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Inst_Pc</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">salida_nPC_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Inst_Pc</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">salida_nPC_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Inst_Pc</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">salida_nPC_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Inst_Pc</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">salida_nPC_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Inst_Pc</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">salida_nPC_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Inst_Pc</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">salida_nPC_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Inst_Pc</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">salida_nPC_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Inst_Pc</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">salida_nPC_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Inst_Pc</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">salida_nPC_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Inst_Pc</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">salida_nPC_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Inst_Pc</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">salida_nPC_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Inst_Pc</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">salida_nPC_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Inst_Pc</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">salida_nPC_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Inst_Pc</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">salida_nPC_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Inst_Pc</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">salida_nPC_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Inst_Pc</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">salida_nPC_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Inst_Pc</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">salida_nPC_26</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Inst_Pc</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">salida_nPC_27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Inst_Pc</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">salida_nPC_28</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Inst_Pc</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">salida_nPC_29</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Inst_Pc</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">salida_nPC_30</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Inst_Pc</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">salida_nPC_31</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Inst_Pc</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">ALUOP_3</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Control_Unit</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">ALUOP_4</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Control_Unit</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">ALUOP_5</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Control_Unit</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">Inst_Control_Unit/ALUOP_2</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">procesador2</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">Inst_Control_Unit/ALUOP_1</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">procesador2</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">Inst_Control_Unit/ALUOP_0</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">procesador2</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Inst_Pc/salida_nPC_31</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">procesador2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Inst_Pc/salida_nPC_30</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">procesador2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Inst_Pc/salida_nPC_29</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">procesador2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Inst_Pc/salida_nPC_28</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">procesador2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Inst_Pc/salida_nPC_27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">procesador2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Inst_Pc/salida_nPC_26</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">procesador2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Inst_Pc/salida_nPC_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">procesador2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Inst_Pc/salida_nPC_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">procesador2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Inst_Pc/salida_nPC_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">procesador2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Inst_Pc/salida_nPC_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">procesador2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Inst_Pc/salida_nPC_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">procesador2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Inst_Pc/salida_nPC_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">procesador2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Inst_Pc/salida_nPC_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">procesador2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Inst_Pc/salida_nPC_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">procesador2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Inst_Pc/salida_nPC_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">procesador2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Inst_Pc/salida_nPC_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">procesador2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Inst_Pc/salida_nPC_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">procesador2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Inst_Pc/salida_nPC_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">procesador2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Inst_Pc/salida_nPC_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">procesador2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Inst_Pc/salida_nPC_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">procesador2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Inst_Pc/salida_nPC_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">procesador2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Inst_Pc/salida_nPC_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">procesador2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Inst_Pc/salida_nPC_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">procesador2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Inst_Pc/salida_nPC_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">procesador2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Inst_Pc/salida_nPC_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">procesador2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Inst_Pc/salida_nPC_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">procesador2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Inst_Pc/salida_nPC_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">procesador2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Inst_nPc/salida_nPC_31</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">procesador2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Inst_nPc/salida_nPC_30</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">procesador2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Inst_nPc/salida_nPC_29</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">procesador2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Inst_nPc/salida_nPC_28</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">procesador2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Inst_nPc/salida_nPC_27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">procesador2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Inst_nPc/salida_nPC_26</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">procesador2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Inst_nPc/salida_nPC_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">procesador2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Inst_nPc/salida_nPC_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">procesador2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Inst_nPc/salida_nPC_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">procesador2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Inst_nPc/salida_nPC_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">procesador2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Inst_nPc/salida_nPC_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">procesador2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Inst_nPc/salida_nPC_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">procesador2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Inst_nPc/salida_nPC_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">procesador2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Inst_nPc/salida_nPC_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">procesador2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Inst_nPc/salida_nPC_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">procesador2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Inst_nPc/salida_nPC_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">procesador2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Inst_nPc/salida_nPC_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">procesador2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Inst_nPc/salida_nPC_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">procesador2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Inst_nPc/salida_nPC_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">procesador2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Inst_nPc/salida_nPC_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">procesador2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Inst_nPc/salida_nPC_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">procesador2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Inst_nPc/salida_nPC_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">procesador2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Inst_nPc/salida_nPC_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">procesador2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Inst_nPc/salida_nPC_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">procesador2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Inst_nPc/salida_nPC_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">procesador2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Inst_nPc/salida_nPC_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">procesador2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Inst_nPc/salida_nPC_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">procesador2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Inst_RF/Crd_31</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">procesador2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Inst_RF/Crd_30</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">procesador2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Inst_RF/Crd_29</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">procesador2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Inst_RF/Crd_28</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">procesador2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Inst_RF/Crd_27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">procesador2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Inst_RF/Crd_26</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">procesador2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Inst_RF/Crd_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">procesador2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Inst_RF/Crd_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">procesador2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Inst_RF/Crd_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">procesador2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Inst_RF/Crd_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">procesador2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Inst_RF/Crd_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">procesador2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Inst_RF/Crd_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">procesador2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Inst_RF/Crd_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">procesador2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Inst_RF/Crd_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">procesador2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Inst_RF/Crd_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">procesador2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Inst_RF/Crd_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">procesador2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Inst_RF/Crd_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">procesador2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Inst_RF/Crd_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">procesador2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Inst_RF/Crd_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">procesador2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Inst_RF/Crd_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">procesador2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Inst_RF/Crd_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">procesador2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Inst_RF/Crd_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">procesador2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Inst_RF/Crd_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">procesador2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Inst_RF/Crd_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">procesador2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Inst_RF/Crd_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">procesador2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Inst_RF/Crd_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">procesador2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Inst_RF/Crd_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">procesador2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Inst_RF/Crd_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">procesador2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Inst_RF/Crd_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">procesador2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Inst_RF/Crd_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">procesador2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Inst_RF/Crd_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">procesador2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Inst_RF/Crd_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">procesador2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1294" delta="new" >Latch &lt;<arg fmt="%s" index="1">Inst_ALU/ALUResult_31</arg>&gt; is equivalent to a wire in block &lt;<arg fmt="%s" index="2">procesador2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1294" delta="new" >Latch &lt;<arg fmt="%s" index="1">Inst_ALU/ALUResult_30</arg>&gt; is equivalent to a wire in block &lt;<arg fmt="%s" index="2">procesador2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1294" delta="new" >Latch &lt;<arg fmt="%s" index="1">Inst_ALU/ALUResult_29</arg>&gt; is equivalent to a wire in block &lt;<arg fmt="%s" index="2">procesador2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1294" delta="new" >Latch &lt;<arg fmt="%s" index="1">Inst_ALU/ALUResult_28</arg>&gt; is equivalent to a wire in block &lt;<arg fmt="%s" index="2">procesador2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1294" delta="new" >Latch &lt;<arg fmt="%s" index="1">Inst_ALU/ALUResult_27</arg>&gt; is equivalent to a wire in block &lt;<arg fmt="%s" index="2">procesador2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1294" delta="new" >Latch &lt;<arg fmt="%s" index="1">Inst_ALU/ALUResult_26</arg>&gt; is equivalent to a wire in block &lt;<arg fmt="%s" index="2">procesador2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1294" delta="new" >Latch &lt;<arg fmt="%s" index="1">Inst_ALU/ALUResult_25</arg>&gt; is equivalent to a wire in block &lt;<arg fmt="%s" index="2">procesador2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1294" delta="new" >Latch &lt;<arg fmt="%s" index="1">Inst_ALU/ALUResult_24</arg>&gt; is equivalent to a wire in block &lt;<arg fmt="%s" index="2">procesador2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1294" delta="new" >Latch &lt;<arg fmt="%s" index="1">Inst_ALU/ALUResult_23</arg>&gt; is equivalent to a wire in block &lt;<arg fmt="%s" index="2">procesador2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1294" delta="new" >Latch &lt;<arg fmt="%s" index="1">Inst_ALU/ALUResult_22</arg>&gt; is equivalent to a wire in block &lt;<arg fmt="%s" index="2">procesador2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1294" delta="new" >Latch &lt;<arg fmt="%s" index="1">Inst_ALU/ALUResult_21</arg>&gt; is equivalent to a wire in block &lt;<arg fmt="%s" index="2">procesador2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1294" delta="new" >Latch &lt;<arg fmt="%s" index="1">Inst_ALU/ALUResult_20</arg>&gt; is equivalent to a wire in block &lt;<arg fmt="%s" index="2">procesador2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1294" delta="new" >Latch &lt;<arg fmt="%s" index="1">Inst_ALU/ALUResult_19</arg>&gt; is equivalent to a wire in block &lt;<arg fmt="%s" index="2">procesador2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1294" delta="new" >Latch &lt;<arg fmt="%s" index="1">Inst_ALU/ALUResult_18</arg>&gt; is equivalent to a wire in block &lt;<arg fmt="%s" index="2">procesador2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1294" delta="new" >Latch &lt;<arg fmt="%s" index="1">Inst_ALU/ALUResult_17</arg>&gt; is equivalent to a wire in block &lt;<arg fmt="%s" index="2">procesador2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1294" delta="new" >Latch &lt;<arg fmt="%s" index="1">Inst_ALU/ALUResult_16</arg>&gt; is equivalent to a wire in block &lt;<arg fmt="%s" index="2">procesador2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1294" delta="new" >Latch &lt;<arg fmt="%s" index="1">Inst_ALU/ALUResult_15</arg>&gt; is equivalent to a wire in block &lt;<arg fmt="%s" index="2">procesador2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1294" delta="new" >Latch &lt;<arg fmt="%s" index="1">Inst_ALU/ALUResult_14</arg>&gt; is equivalent to a wire in block &lt;<arg fmt="%s" index="2">procesador2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1294" delta="new" >Latch &lt;<arg fmt="%s" index="1">Inst_ALU/ALUResult_13</arg>&gt; is equivalent to a wire in block &lt;<arg fmt="%s" index="2">procesador2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1294" delta="new" >Latch &lt;<arg fmt="%s" index="1">Inst_ALU/ALUResult_12</arg>&gt; is equivalent to a wire in block &lt;<arg fmt="%s" index="2">procesador2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1294" delta="new" >Latch &lt;<arg fmt="%s" index="1">Inst_ALU/ALUResult_11</arg>&gt; is equivalent to a wire in block &lt;<arg fmt="%s" index="2">procesador2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1294" delta="new" >Latch &lt;<arg fmt="%s" index="1">Inst_ALU/ALUResult_10</arg>&gt; is equivalent to a wire in block &lt;<arg fmt="%s" index="2">procesador2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1294" delta="new" >Latch &lt;<arg fmt="%s" index="1">Inst_ALU/ALUResult_9</arg>&gt; is equivalent to a wire in block &lt;<arg fmt="%s" index="2">procesador2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1294" delta="new" >Latch &lt;<arg fmt="%s" index="1">Inst_ALU/ALUResult_8</arg>&gt; is equivalent to a wire in block &lt;<arg fmt="%s" index="2">procesador2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1294" delta="new" >Latch &lt;<arg fmt="%s" index="1">Inst_ALU/ALUResult_7</arg>&gt; is equivalent to a wire in block &lt;<arg fmt="%s" index="2">procesador2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1294" delta="new" >Latch &lt;<arg fmt="%s" index="1">Inst_ALU/ALUResult_6</arg>&gt; is equivalent to a wire in block &lt;<arg fmt="%s" index="2">procesador2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1294" delta="new" >Latch &lt;<arg fmt="%s" index="1">Inst_ALU/ALUResult_5</arg>&gt; is equivalent to a wire in block &lt;<arg fmt="%s" index="2">procesador2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1294" delta="new" >Latch &lt;<arg fmt="%s" index="1">Inst_ALU/ALUResult_4</arg>&gt; is equivalent to a wire in block &lt;<arg fmt="%s" index="2">procesador2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1294" delta="new" >Latch &lt;<arg fmt="%s" index="1">Inst_ALU/ALUResult_3</arg>&gt; is equivalent to a wire in block &lt;<arg fmt="%s" index="2">procesador2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1294" delta="new" >Latch &lt;<arg fmt="%s" index="1">Inst_ALU/ALUResult_2</arg>&gt; is equivalent to a wire in block &lt;<arg fmt="%s" index="2">procesador2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1294" delta="new" >Latch &lt;<arg fmt="%s" index="1">Inst_ALU/ALUResult_1</arg>&gt; is equivalent to a wire in block &lt;<arg fmt="%s" index="2">procesador2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1294" delta="new" >Latch &lt;<arg fmt="%s" index="1">Inst_ALU/ALUResult_0</arg>&gt; is equivalent to a wire in block &lt;<arg fmt="%s" index="2">procesador2</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Inst_RF/memory_21_3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">procesador2</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">8 FFs/Latches</arg> : <arg fmt="%s" index="4">&lt;Inst_RF/memory_22_3&gt; &lt;Inst_RF/memory_30_3&gt; &lt;Inst_RF/memory_28_3&gt; &lt;Inst_RF/memory_29_3&gt; &lt;Inst_RF/memory_12_3&gt; &lt;Inst_RF/memory_13_3&gt; &lt;Inst_RF/memory_14_3&gt; &lt;Inst_RF/memory_20_3&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Inst_RF/memory_21_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">procesador2</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">9 FFs/Latches</arg> : <arg fmt="%s" index="4">&lt;Inst_RF/memory_22_1&gt; &lt;Inst_RF/memory_30_1&gt; &lt;Inst_RF/memory_28_1&gt; &lt;Inst_RF/memory_29_1&gt; &lt;Inst_RF/memory_12_1&gt; &lt;Inst_RF/memory_6_1&gt; &lt;Inst_RF/memory_13_1&gt; &lt;Inst_RF/memory_14_1&gt; &lt;Inst_RF/memory_20_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Inst_RF/memory_4_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">procesador2</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg> : <arg fmt="%s" index="4">&lt;Inst_RF/memory_5_2&gt; &lt;Inst_RF/memory_6_2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2169" delta="new" >HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
 </msg>
 
 </messages>

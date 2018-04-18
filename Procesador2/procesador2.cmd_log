@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/Users/Richy/Desktop/Proyectos ISE/Procesador1/procesador2.xst" -ofn "C:/Users/Richy/Desktop/Proyectos ISE/Procesador1/procesador2.syr" 

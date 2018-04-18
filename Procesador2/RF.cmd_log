@@ -1,0 +1,1 @@
+vhdtdtfi -prj Procesador1 -o "C:/Users/Richy/Desktop/Proyectos ISE/Procesador1/RF.vhi" -module RF -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work RF.vhd 

@@ -6,7 +6,7 @@ use std.textio.all;
 
 entity IM is
     Port ( address : in  STD_LOGIC_VECTOR (31 downto 0);
-           clk : in  STD_LOGIC;
+         --  clk : in  STD_LOGIC;
            reset : in  STD_LOGIC;
            outInstruction : out  STD_LOGIC_VECTOR (31 downto 0));
 end IM;
