@@ -17,7 +17,7 @@ begin
 	process(Op3,Op)
 	begin
 		case Op is
-			when "00" => -- Branch or SETHI
+			--when "00" => -- Branch or SETHI
 				
 			when "01" => -- CALL
 			

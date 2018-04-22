@@ -46,7 +46,7 @@ LAB0:    xsi_set_current_line(18, ng0);
         goto LAB2;
 
 LAB4:    xsi_set_current_line(21, ng0);
-    t1 = (t0 + 1192U);
+    t1 = (t0 + 1032U);
     t2 = *((char **)t1);
     t1 = (t0 + 3072);
     t5 = (t1 + 56U);
@@ -61,7 +61,7 @@ LAB3:    t1 = (t0 + 2992);
 
 LAB1:    return;
 LAB2:    xsi_set_current_line(19, ng0);
-    t1 = (t0 + 1032U);
+    t1 = (t0 + 1192U);
     t5 = *((char **)t1);
     t1 = (t0 + 3072);
     t6 = (t1 + 56U);

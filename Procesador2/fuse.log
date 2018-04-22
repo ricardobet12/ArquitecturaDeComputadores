@@ -32,8 +32,8 @@ Compiling architecture primerprocesadorr of entity ALU [alu_default]
 Compiling architecture arq_procesador2 of entity procesador2 [procesador2_default]
 Compiling architecture behavior of entity test_procesador2
 Time Resolution for simulation is 1ps.
-Waiting for 8 sub-compilation(s) to finish...
+Waiting for 7 sub-compilation(s) to finish...
 Compiled 25 VHDL Units
 Built simulation executable C:/Users/Richy/Desktop/Proyectos ISE/Procesador1/test_procesador2_isim_beh.exe
-Fuse Memory Usage: 36400 KB
-Fuse CPU Usage: 1200 ms
+Fuse Memory Usage: 36324 KB
+Fuse CPU Usage: 1107 ms

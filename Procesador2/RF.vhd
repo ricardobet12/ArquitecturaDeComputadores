@@ -21,39 +21,7 @@ end RF;
 architecture Behavioral of RF is
 
 type memory_type is array (0 to 31) of std_logic_vector (31 downto 0);
-	signal memory: memory_type := ( x"00000000",
-												x"00000001",
-												x"00000002",
-												x"00000003",
-												x"00000004",
-												x"00000005",
-												x"00000006",
-												x"00000007",
-												x"0000000A",
-												x"0000000A",
-												x"0000000A",
-												x"0000000A",
-												x"0000000A",
-												x"0000000A",
-												x"0000000A",
-												x"0000000A",
-												x"0000000A",
-												x"0000000A",
-												x"0000000A",
-												x"0000000A",
-												x"0000000A",
-												x"0000000A",
-												x"0000000A",
-												x"0000000A",
-												x"0000000A",
-												x"0000000A",
-												x"0000000A",
-												x"0000000A",
-												x"0000000A",
-												x"0000000A",
-												x"0000000A",
-												x"0000000A"
-												);									
+	signal memory: memory_type := (others => x"00000000");									
 begin
 process(Rs1,Rs2,Rd,Reset,DWR)
 		

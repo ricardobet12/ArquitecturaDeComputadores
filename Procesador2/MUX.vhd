@@ -16,9 +16,9 @@ begin
 process(entrada1,imm,senal_1)
 begin
 	if(senal_1 = '1')then
-		salida <= entrada1;
-	else
 		salida <= imm;
+	else
+		salida <= entrada1;
 	end if;
 end process;
 

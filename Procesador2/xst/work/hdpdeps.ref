@@ -1,59 +1,59 @@
 V3 35
-FL "C:/Users/Richy/Desktop/Proyectos ISE/Procesador1/ALU.vhd" 2018/04/16.19:51:46 P.20131013
-EN work/ALU 1524066936 \
+FL "C:/Users/Richy/Desktop/Proyectos ISE/Procesador1/ALU.vhd" 2018/04/18.11:13:16 P.20131013
+EN work/ALU 1524252038 \
       FL "C:/Users/Richy/Desktop/Proyectos ISE/Procesador1/ALU.vhd" \
       PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
-AR work/ALU/PrimerProcesadorR 1524066937 \
-      FL "C:/Users/Richy/Desktop/Proyectos ISE/Procesador1/ALU.vhd" EN work/ALU 1524066936
-FL "C:/Users/Richy/Desktop/Proyectos ISE/Procesador1/IM.vhd" 2018/04/16.19:54:00 P.20131013
-EN work/IM 1524066926 \
+AR work/ALU/PrimerProcesadorR 1524252039 \
+      FL "C:/Users/Richy/Desktop/Proyectos ISE/Procesador1/ALU.vhd" EN work/ALU 1524252038
+FL "C:/Users/Richy/Desktop/Proyectos ISE/Procesador1/IM.vhd" 2018/04/20.14:20:17 P.20131013
+EN work/IM 1524252028 \
       FL "C:/Users/Richy/Desktop/Proyectos ISE/Procesador1/IM.vhd" \
       PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
       PB std/TEXTIO 1381692176
-AR work/IM/PrimerProcesadorR 1524066927 \
-      FL "C:/Users/Richy/Desktop/Proyectos ISE/Procesador1/IM.vhd" EN work/IM 1524066926
-FL "C:/Users/Richy/Desktop/Proyectos ISE/Procesador1/MUX.vhd" 2018/04/18.10:19:08 P.20131013
-EN work/MUX 1524066932 \
+AR work/IM/PrimerProcesadorR 1524252029 \
+      FL "C:/Users/Richy/Desktop/Proyectos ISE/Procesador1/IM.vhd" EN work/IM 1524252028
+FL "C:/Users/Richy/Desktop/Proyectos ISE/Procesador1/MUX.vhd" 2018/04/20.13:59:15 P.20131013
+EN work/MUX 1524252034 \
       FL "C:/Users/Richy/Desktop/Proyectos ISE/Procesador1/MUX.vhd" \
       PB ieee/std_logic_1164 1381692176
-AR work/MUX/Behavioral 1524066933 \
-      FL "C:/Users/Richy/Desktop/Proyectos ISE/Procesador1/MUX.vhd" EN work/MUX 1524066932
-FL "C:/Users/Richy/Desktop/Proyectos ISE/Procesador1/nPc.vhd" 2018/04/16.19:52:30 P.20131013
-EN work/nPc 1524066924 \
+AR work/MUX/Behavioral 1524252035 \
+      FL "C:/Users/Richy/Desktop/Proyectos ISE/Procesador1/MUX.vhd" EN work/MUX 1524252034
+FL "C:/Users/Richy/Desktop/Proyectos ISE/Procesador1/nPc.vhd" 2018/04/18.11:13:16 P.20131013
+EN work/nPc 1524252026 \
       FL "C:/Users/Richy/Desktop/Proyectos ISE/Procesador1/nPc.vhd" \
       PB ieee/std_logic_1164 1381692176
-AR work/nPc/PrimerProcesadorR 1524066925 \
-      FL "C:/Users/Richy/Desktop/Proyectos ISE/Procesador1/nPc.vhd" EN work/nPc 1524066924
-FL "C:/Users/Richy/Desktop/Proyectos ISE/Procesador1/procesador2.vhd" 2018/04/18.10:46:40 P.20131013
-EN work/procesador2 1524066938 \
+AR work/nPc/PrimerProcesadorR 1524252027 \
+      FL "C:/Users/Richy/Desktop/Proyectos ISE/Procesador1/nPc.vhd" EN work/nPc 1524252026
+FL "C:/Users/Richy/Desktop/Proyectos ISE/Procesador1/procesador2.vhd" 2018/04/18.11:13:16 P.20131013
+EN work/procesador2 1524252040 \
       FL "C:/Users/Richy/Desktop/Proyectos ISE/Procesador1/procesador2.vhd" \
       PB ieee/std_logic_1164 1381692176
-AR work/procesador2/arq_procesador2 1524066939 \
+AR work/procesador2/arq_procesador2 1524252041 \
       FL "C:/Users/Richy/Desktop/Proyectos ISE/Procesador1/procesador2.vhd" \
-      EN work/procesador2 1524066938 CP Suma CP nPc CP IM CP Control_Unit CP RF CP MUX \
+      EN work/procesador2 1524252040 CP Suma CP nPc CP IM CP Control_Unit CP RF CP MUX \
       CP SEV CP ALU
-FL "C:/Users/Richy/Desktop/Proyectos ISE/Procesador1/RF.vhd" 2018/04/18.10:54:22 P.20131013
-EN work/RF 1524066930 \
+FL "C:/Users/Richy/Desktop/Proyectos ISE/Procesador1/RF.vhd" 2018/04/19.19:48:42 P.20131013
+EN work/RF 1524252032 \
       FL "C:/Users/Richy/Desktop/Proyectos ISE/Procesador1/RF.vhd" \
       PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
-AR work/RF/Behavioral 1524066931 \
-      FL "C:/Users/Richy/Desktop/Proyectos ISE/Procesador1/RF.vhd" EN work/RF 1524066930
-FL "C:/Users/Richy/Desktop/Proyectos ISE/Procesador1/SEV.vhd" 2018/04/16.19:34:23 P.20131013
-EN work/SEV 1524066934 \
+AR work/RF/Behavioral 1524252033 \
+      FL "C:/Users/Richy/Desktop/Proyectos ISE/Procesador1/RF.vhd" EN work/RF 1524252032
+FL "C:/Users/Richy/Desktop/Proyectos ISE/Procesador1/SEV.vhd" 2018/04/18.11:13:16 P.20131013
+EN work/SEV 1524252036 \
       FL "C:/Users/Richy/Desktop/Proyectos ISE/Procesador1/SEV.vhd" \
       PB ieee/std_logic_1164 1381692176
-AR work/SEV/PrimerProcesadorR 1524066935 \
-      FL "C:/Users/Richy/Desktop/Proyectos ISE/Procesador1/SEV.vhd" EN work/SEV 1524066934
-FL "C:/Users/Richy/Desktop/Proyectos ISE/Procesador1/Suma.vhd" 2018/04/16.19:51:22 P.20131013
-EN work/Suma 1524066922 \
+AR work/SEV/PrimerProcesadorR 1524252037 \
+      FL "C:/Users/Richy/Desktop/Proyectos ISE/Procesador1/SEV.vhd" EN work/SEV 1524252036
+FL "C:/Users/Richy/Desktop/Proyectos ISE/Procesador1/Suma.vhd" 2018/04/18.11:13:16 P.20131013
+EN work/Suma 1524252024 \
       FL "C:/Users/Richy/Desktop/Proyectos ISE/Procesador1/Suma.vhd" \
       PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
-AR work/Suma/PrimerProcesadorR 1524066923 \
-      FL "C:/Users/Richy/Desktop/Proyectos ISE/Procesador1/Suma.vhd" EN work/Suma 1524066922
-FL "C:/Users/Richy/Desktop/Proyectos ISE/Procesador1/UC.vhd" 2018/04/16.19:50:34 P.20131013
-EN work/Control_Unit 1524066928 \
+AR work/Suma/PrimerProcesadorR 1524252025 \
+      FL "C:/Users/Richy/Desktop/Proyectos ISE/Procesador1/Suma.vhd" EN work/Suma 1524252024
+FL "C:/Users/Richy/Desktop/Proyectos ISE/Procesador1/UC.vhd" 2018/04/19.19:48:18 P.20131013
+EN work/Control_Unit 1524252030 \
       FL "C:/Users/Richy/Desktop/Proyectos ISE/Procesador1/UC.vhd" \
       PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
-AR work/Control_Unit/PrimerProcesadorR 1524066929 \
+AR work/Control_Unit/PrimerProcesadorR 1524252031 \
       FL "C:/Users/Richy/Desktop/Proyectos ISE/Procesador1/UC.vhd" \
-      EN work/Control_Unit 1524066928
+      EN work/Control_Unit 1524252030

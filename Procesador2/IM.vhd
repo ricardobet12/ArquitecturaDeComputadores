@@ -14,7 +14,7 @@ end IM;
 architecture PrimerProcesadorR of IM is
 
 -- rom_type = tipo de memoria --
-	type rom_type is array (0 to 31) of std_logic_vector (31 downto 0); -- Es la matriz que almacena 32 instrucciones cada una de 32 bits --
+	type rom_type is array (0 to 2) of std_logic_vector (31 downto 0); -- Es la matriz que almacena 32 instrucciones cada una de 32 bits --
 	
 	-- Se crea una funcion para cargar un archivo de texto en la memoria --
 	impure function InitRomFromFile (RomFileName : in string) return rom_type is
@@ -32,7 +32,7 @@ architecture PrimerProcesadorR of IM is
 	end function;
 	
 	-- Creamos la memoria que va a ser del tipo rom_type --
-	signal instructions : rom_type := InitRomFromFile("prueba_IM.txt");
+	signal instructions : rom_type := InitRomFromFile("prueba_IM.data");
 	-- y iniciamos la memoria con las instrucciones almacenadas en el archivo Ejemplo: "test.data" --
 
 begin
@@ -49,4 +49,3 @@ begin
 		--end if;
 	end process;
 end PrimerProcesadorR;
-
