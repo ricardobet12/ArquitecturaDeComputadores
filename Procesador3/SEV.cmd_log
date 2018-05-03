@@ -1,0 +1,1 @@
+vhdtdtfi -prj Procesador1 -o "C:/Users/Richy/Desktop/Proyectos ISE/Procesador1/SEV.vhi" -module SEV -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work SEV.vhd 
