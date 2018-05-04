@@ -74,7 +74,8 @@ END COMPONENT;
 	PORT(
 		Op1 : IN std_logic_vector(31 downto 0);
 		Op2 : IN std_logic_vector(31 downto 0);
-		ALUOP : IN std_logic_vector(5 downto 0);          
+		ALUOP : IN std_logic_vector(5 downto 0);
+	CARRY : IN std_logic;		
 		ALUResult : OUT std_logic_vector(31 downto 0)
 		);
 	END COMPONENT;
@@ -90,15 +91,15 @@ END COMPONENT;
 	END COMPONENT;
 	
 	
---	COMPONENT PSR_Modifier
---	PORT(
---		muxOut : IN std_logic_vector(31 downto 0);
---		UcOut : IN std_logic_vector(5 downto 0);
---		aluOut : IN std_logic_vector(31 downto 0);
---		rfOut1 : IN std_logic_vector(31 downto 0);          
---		nzvc : OUT std_logic_vector(3 downto 0)
---		);
---	END COMPONENT;
+	COMPONENT PSR_Modifier
+	PORT(
+		muxOut : IN std_logic_vector(31 downto 0);
+		UcOut : IN std_logic_vector(5 downto 0);
+		aluOut : IN std_logic_vector(31 downto 0);
+		rfOut1 : IN std_logic_vector(31 downto 0);          
+		nzvc : OUT std_logic_vector(3 downto 0)
+		);
+	END COMPONENT;
 
 signal sumadorToNpc, npcToPc, pcToIm, imToURS, aluResult, rfToAlu1, rfToMux, seuToMux, muxToAlu:STD_LOGIC_VECTOR (31 downto 0);
 signal aluop1: STD_LOGIC_VECTOR (5 downto 0);
@@ -164,6 +165,7 @@ Inst_ALU: ALU PORT MAP(
 	Op1 => rfToAlu1,
 	Op2 => muxToAlu,
 	ALUOP => aluop1,
+	CARRY => carry,
 	ALUResult => aluResult
 	);
 	
@@ -174,13 +176,13 @@ Inst_PSR: PSR PORT MAP(
 	reset => reset
 );
 
---Inst_PSR_Modifier: PSR_Modifier PORT MAP(
---	muxOut => ,
---	UcOut => ,
---	aluOut => ,
---	rfOut1 => ,
---	nzvc => psrModifier
---);
+Inst_PSR_Modifier: PSR_Modifier PORT MAP(
+	muxOut => muxToAlu,
+	UcOut => aluop1,
+	aluOut => aluResult,
+	rfOut1 => rfToAlu1,
+	nzvc => psrModifier
+);
 	
 	resultadoProcesador <= aluResult;
 

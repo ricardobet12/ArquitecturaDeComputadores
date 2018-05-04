@@ -7,7 +7,9 @@ entity ALU is
     Port ( Op1 : in  STD_LOGIC_VECTOR (31 downto 0);
            Op2 : in  STD_LOGIC_VECTOR (31 downto 0);
            ALUOP : in  STD_LOGIC_VECTOR (5 downto 0);
+			  CARRY : in  STD_LOGIC;
            ALUResult : out  STD_LOGIC_VECTOR (31 downto 0));
+			  
 end ALU;
 
 architecture PrimerProcesadorR of ALU is
@@ -17,22 +19,53 @@ begin
 	process(Op1, Op2, ALUOP)
 	begin
 		case ALUOP is
-			when "000000" => -- Add
-				ALUResult <= Op1 + Op2;
-			when "000100" => -- Sub
-				ALUResult <= Op1 - Op2;
+		
+			when "000001" => -- ADD
+				ALUResult <= op1 + op2;
+					
+			when "000011" => -- AND
+				ALUResult <= op1 and op2;
+				
+			when "010001" => -- ANDCC
+				ALUResult <= op1 and op2;
+				
+			when "000100" => -- NAND
+				ALUResult <= not(op1 and op2);
+				
 			when "000010" => -- OR
-				ALUResult <= Op1 or Op2;
-			when "000110" => -- ORN
-				ALUResult <= Op1 or not(Op2);
-			when "000001" => -- AND
-				ALUResult <= Op1 and Op2;
-			when "000101" => -- ANDN
-				ALUResult <= Op1 and not(Op2);
-			when "000011" => -- XOR
-				ALUResult <= Op1 xor Op2;
-			when others =>
+				ALUResult <= op1 or op2;
+				
+			when "000110" => -- NOR
+				ALUResult <= not(op1 or op2);
+				
+			when "000111" => -- XOR
+				ALUResult <= op1 xor op2;
+				
+				
+			when "010000" => -- ADDcc
+				ALUResult <= op1 + op2;
+				
+			when "001000" => -- ADDX
+				ALUResult <= op1 + op2;
+				
+			when "001011" => -- ADDXcc
+				ALUResult <= op1 + op2;
+				
+			when "001100" => -- SUBcc
+				ALUResult <= op1 - op2;
+				
+			when "001101" => -- SUBX
+				ALUResult <= op1 - op2 - CARRY;
+				
+			when "001110" => -- SUBXcc
+				ALUResult <= op1 - op2;			
+		
+			when others => 
+			
+			ALUResult <= (others=>'0');
+			
 		end case;
+		
 	end process;
 
 end PrimerProcesadorR;

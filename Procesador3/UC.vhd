@@ -25,20 +25,44 @@ begin
 				case Op3 is
 					when "000000" => -- ADD
 						ALUOP <= "000000";
+					when "010000" => -- ADDCC
+						ALUOP <= "010000";
+						
+					when "001000" => -- ADDXCC
+						ALUOP <= "001000";
+						
+					when "010001" => -- ANDCC
+						ALUOP <= "010001";
 					when "000100" => -- SUB
 						ALUOP <= "000100";
+						
 					when "000010" => -- OR
 						ALUOP <= "000010";
+						
+					when "010010" => -- ORCC
+						ALUOP <= "010010";
+					when "010110" => -- ORNCC
+						ALUOP <= "010110";
 					when "000110" => -- ORN
 						ALUOP <= "000110";
+						
 					when "000001" => -- AND
 						ALUOP <= "000001";
-					when "000101" => -- ANDN
-						ALUOP <= "000101";
+						
+					when "010100" => -- SUBcc
+						ALUOP <= "010100";
+					when "011100" => -- SUBxcc
+						ALUOP <= "011100";
+					
 					when "000011" => -- XOR
 						ALUOP <= "000011";
 					when "000111" => -- XNOR
 						ALUOP <= "000111";
+					when "010011" => -- XORCC
+						ALUOP <= "010011";
+					when "010111" => -- NXORCC
+						ALUOP <= "010111";
+					
 					when others => -- NOP
 				end case;
 			when others => -- Arithmetic Logic or Access memory
