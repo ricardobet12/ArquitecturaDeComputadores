@@ -1,0 +1,50 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o C:/Users/Richy/Desktop/Proyectos ISE/procesador5/TB_procesador_conectado_isim_beh.exe -prj C:/Users/Richy/Desktop/Proyectos ISE/procesador5/TB_procesador_conectado_beh.prj work.TB_procesador_conectado 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/Richy/Desktop/Proyectos ISE/procesador5/Win_Manager.vhd" into library work
+Parsing VHDL file "C:/Users/Richy/Desktop/Proyectos ISE/procesador5/Unidad_Control.vhd" into library work
+Parsing VHDL file "C:/Users/Richy/Desktop/Proyectos ISE/procesador5/SEU.vhd" into library work
+Parsing VHDL file "C:/Users/Richy/Desktop/Proyectos ISE/procesador5/reg_file.vhd" into library work
+Parsing VHDL file "C:/Users/Richy/Desktop/Proyectos ISE/procesador5/PSR_Mod.vhd" into library work
+Parsing VHDL file "C:/Users/Richy/Desktop/Proyectos ISE/procesador5/PSR.vhd" into library work
+Parsing VHDL file "C:/Users/Richy/Desktop/Proyectos ISE/procesador5/nPc.vhd" into library work
+Parsing VHDL file "C:/Users/Richy/Desktop/Proyectos ISE/procesador5/MUX0.vhd" into library work
+Parsing VHDL file "C:/Users/Richy/Desktop/Proyectos ISE/procesador5/MultiPlex.vhd" into library work
+Parsing VHDL file "C:/Users/Richy/Desktop/Proyectos ISE/procesador5/instructionMemory.vhd" into library work
+Parsing VHDL file "C:/Users/Richy/Desktop/Proyectos ISE/procesador5/DM.vhd" into library work
+Parsing VHDL file "C:/Users/Richy/Desktop/Proyectos ISE/procesador5/Alu.vhd" into library work
+Parsing VHDL file "C:/Users/Richy/Desktop/Proyectos ISE/procesador5/adder.vhd" into library work
+Parsing VHDL file "C:/Users/Richy/Desktop/Proyectos ISE/procesador5/Procesador_conectado.vhd" into library work
+Parsing VHDL file "C:/Users/Richy/Desktop/Proyectos ISE/procesador5/TB_procesador_conectado.vhd" into library work
+Starting static elaboration
+WARNING:HDLCompiler:1196 - "C:/Users/Richy/Desktop/Proyectos ISE/procesador5/instructionMemory.vhd" Line 25: Readline called past the end of file romfile
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling package textio
+Compiling architecture behavioral of entity adder [adder_default]
+Compiling architecture behavioral of entity nPc [npc_default]
+Compiling architecture arqinstructionmemory of entity instructionMemory [instructionmemory_default]
+Compiling architecture behavioral of entity Unidad_Control [unidad_control_default]
+Compiling architecture behavioral of entity reg_file [reg_file_default]
+Compiling architecture behavioral of entity Win_Manager [win_manager_default]
+Compiling architecture behavioral of entity MultiPlex [multiplex_default]
+Compiling architecture behavioral of entity SEU [seu_default]
+Compiling architecture behavioral of entity Alu [alu_default]
+Compiling architecture behavioral of entity PSR_Mod [psr_mod_default]
+Compiling architecture behavioral of entity PSR [psr_default]
+Compiling architecture behavioral of entity DM [dm_default]
+Compiling architecture behavioral of entity MUX0 [mux0_default]
+Compiling architecture behavioral of entity Procesador_conectado [procesador_conectado_default]
+Compiling architecture behavior of entity tb_procesador_conectado
+Time Resolution for simulation is 1ps.
+Waiting for 13 sub-compilation(s) to finish...
+Compiled 35 VHDL Units
+Built simulation executable C:/Users/Richy/Desktop/Proyectos ISE/procesador5/TB_procesador_conectado_isim_beh.exe
+Fuse Memory Usage: 36584 KB
+Fuse CPU Usage: 1419 ms
